@@ -1,3 +1,11 @@
+$ mkdir _posts
+
+$ cd _posts
+
+$ touch 2021-05-05-Curse of dimensionality
+
+$ vi 2021-05-05-Curse of dimensionality
+
 ~~~yml
 ---
 layout: post
@@ -7,6 +15,8 @@ date: '2021-05-05'
 category: temp
 thumbnail: ![10dim](https://user-images.githubusercontent.com/72531163/117042200-a0155280-ad46-11eb-836d-5fe9ab51bdff.png)
 ---
+
+~~~
 
 단위 직선(1) 안에 있는 임의의 두 점을 선택하면 두 점 사이의 거리는 평균적으로 0.33 이다.
 ![1dim](https://user-images.githubusercontent.com/72531163/117042203-a0ade900-ad46-11eb-8da2-8afddad26a5d.png)
@@ -48,4 +58,3 @@ def curse_of_dim(N, d):
     plt.title("Average distance between two points in %i dimension: %.2f" %(d, dist[-1]))
     return
 ```
-~~~
