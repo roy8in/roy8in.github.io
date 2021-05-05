@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roy8in.github.io/sitemap.xml
