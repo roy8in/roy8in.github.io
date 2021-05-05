@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 # main links
 main:
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-=======
-main:
-  - title: "Category"
-    url: /category/
->>>>>>> c2065fa49112021be09790d6debd0cb5a6d83de9
