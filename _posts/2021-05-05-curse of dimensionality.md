@@ -4,6 +4,7 @@ title: "차원의 저주(Curse of Dimensionality)"
 author: Roy
 date: '2021-05-05'
 category: Quantitative
+comments: true
 ---
 
 
