@@ -4,7 +4,6 @@ title: "차원의 저주(Curse of Dimensionality)"
 author: Roy
 date: '2021-05-05'
 category: Quantitative
-comments: true
 ---
 
 
@@ -31,8 +30,11 @@ comments: true
 이렇게 차원이 커질수록 임의의 두 점 사이의 거리가 증가하게 되는데, 이는 차원이 클수록 더 많은 공간을 갖고 있기 때문이다. 따라서 고차원에서 예측은 저차원일 때보다 불안정하다. 따라서 차원 축소가 필요하다.
 
 ```python
+import numpy as np
+import matplotlib.pyplot as plt
+
 def curse_of_dim(N, d):
-    # make two points a and b
+    # make two random points a and b in N-dimensional space
     a = np.random.rand(N, d)
     b = np.random.rand(N, d)
 
@@ -48,6 +50,7 @@ def curse_of_dim(N, d):
     plt.plot(dist)
     plt.xlabel("N")
     plt.ylabel("Distance")
-    plt.title("Average distance between two points in %i dimension: %.2f" %(d, dist[-1]))
+    plt.title("Average distance between two random points\ 
+               in %i dimension: %.2f" %(d, dist[-1]))
     return
 ```
