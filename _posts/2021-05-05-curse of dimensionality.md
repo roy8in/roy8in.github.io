@@ -2,7 +2,8 @@
 layout: post
 title: "차원의 저주(Curse of Dimensionality)"
 author: Roy
-date: '2021-05-05'
+date: 2021-05-05
+last_modified_at: 2021-05-06
 category:
   - Quantitative
 tags:
