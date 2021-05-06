@@ -12,6 +12,7 @@ comments: true
 use_math: true
 ---
 확률변수 $X$가 평균 $\mu$, 표준편차 $\sigma$인 정규분포를 따른다고 가정하자. $95\%$ 등 신뢰도를 $\beta$,  $\beta-VaR$를 $\alpha_\beta (x)$,  $\beta-CVaR$를 $\phi_\beta (x)$라고 할 때 다음이 성립한다.
+
 ***
 $$
 \begin{align}
