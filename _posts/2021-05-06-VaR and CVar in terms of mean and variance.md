@@ -8,6 +8,7 @@ category:
   - Quantitative
 tags:
   - Risk Management
+use_math: true
 ---
 
  
