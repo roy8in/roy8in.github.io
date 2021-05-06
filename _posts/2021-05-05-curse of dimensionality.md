@@ -3,10 +3,13 @@ layout: post
 title: "차원의 저주(Curse of Dimensionality)"
 author: Roy
 date: '2021-05-05'
-category: Quantitative
+category:
+  - Quantitative
+tags:
+  - python
 ---
 
-
+ 
 
 단위 직선(1) 안에 있는 임의의 두 점을 선택하면 두 점 사이의 거리는 평균적으로 0.33 이다.
 
