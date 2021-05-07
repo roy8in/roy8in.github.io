@@ -29,6 +29,11 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : "Roy's Data World"
 # breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
+
+
+disqus_url: https://disqus.com/by/disqus_KOqVSa5NL1/
+disqus_id: roy8in-github-io
+
 comments:
   provider               : "disqus"
   disqus:
