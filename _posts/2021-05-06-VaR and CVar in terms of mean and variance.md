@@ -20,7 +20,11 @@ $$
 &\phi_\beta (x) =\mu(x)+c_2(\beta) \sigma(x) \\
 \end{align*}
 $$
+
+
 여기서
+
+
 $$
 \begin{align*}
  c_1(\beta)&= \sqrt{2} \mathrm{erf}^{-1}(2\beta-1) \\
@@ -28,5 +32,7 @@ $$
 \mathrm{erf}(z)&= {2 \over \sqrt{\pi}} \int_0^{z} \mathrm{e}^{-t^2} dt
 \end{align*}
 $$
+
+
 이다.
 
