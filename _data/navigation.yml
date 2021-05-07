@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # main links
 main:
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
+=======
+main:
+  - title: "Category"
+    url: /categories/
+>>>>>>> a1a7f69 (Create navigation.yml)
