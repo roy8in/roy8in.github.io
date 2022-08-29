@@ -7,6 +7,10 @@ tag: HedgeFund
 comments: True
 ---
 
+헤지펀드의 진실, 펀드 매니저의 고백(라스 크로이저)의 책에서 기억해두고 싶은 부분을 정리
+
+자세한 내용은 구매해서 보길 추천: [Amazon](https://www.amazon.com/Money-Mavericks-Confessions-Manager-Financial/dp/0273772503), [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=14307611)
+
 ## Part 1_헤지펀드의 세계에 들어서다
 
 
