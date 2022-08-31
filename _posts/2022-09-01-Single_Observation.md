@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fat Tail, Single Observation
-date: 2022-09-01
+date: 2022-08-31
 categories: Quant
 tag: Quantitative, Fat tail, Quant, 정량분석, 퀀트
 comments: True
