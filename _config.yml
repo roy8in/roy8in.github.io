@@ -10,7 +10,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Roy
-  tagline: 기록용 
+  tagline: 내가 보려고 만드는 블로그. 키워드를 검색하면 관련 글을 찾을 수 있음 
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
