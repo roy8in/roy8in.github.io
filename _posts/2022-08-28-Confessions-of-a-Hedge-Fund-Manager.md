@@ -2,7 +2,7 @@
 layout: post
 title: 『헤지펀드의 진실, 펀드 매니저의 고백』 NOTE
 date: 2022-08-28
-categories: Investment Worklife
+categories: Investment
 tag: HedgeFund
 comments: True
 ---
