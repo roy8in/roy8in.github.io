@@ -819,9 +819,7 @@ Alpha 은행이 충분한 지급준비금을 갖고 있지 않다면 누군가�
 
 결과적으로 금융 시스템이 안정되었고 연준이 상업은행과 그림자 은행, 그리고 해외 은행의 최종 대부자 역할을 하는 선례를 남겼다. 2020년 COVID-19 패닉 기간에 2008년의 연준법 13조 3항을 활용한 선례를 더욱 확고히 하였다. 한 걸음 더 나아가 연준은 민간 비즈니스 부문의 최종대부자 역할까지 하였다.
 
-2020년 [3월](https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm)과 [4월](https://www.federalreserve.gov/newsevents/pressreleases/monetary20200409a.htm), 상업은행을 통한 소규모 기업 지원과 자본시장을 활용한 대기업 지원이 가능한 새로운 정책 기구(facilities)를 발표했다. 발행시장을 통한 회사채 매입 기구(Primary Market Corporate Cr
-
-edit Facility, [PMCCF](https://www.federalreserve.gov/monetarypolicy/pmccf.htm))와 유통시장을 통한 회사채 매입기구(Secondary Market Corporate Credit Facility, [SMCCF](https://www.federalreserve.gov/monetarypolicy/smccf.htm))이다. 또한 연준은 실물시장 지원을 위해 SPV를 설립하여 상업은행의 소규모 비즈니스 대출을 매입하는 [Main Street Lending Program](https://www.federalreserve.gov/monetarypolicy/mainstreetlending.htm)을 운영하였다. 상업은행에 유동성을 공급하던 전통적인 역할을 넘어 미국의 기업들에게도 유동성을 지원한 것이다. 개인을 제외한 거의 모든 사람들이 연준 대차대조표에 접근할 수 있게 된 것이다.
+2020년 [3월](https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm)과 [4월](https://www.federalreserve.gov/newsevents/pressreleases/monetary20200409a.htm), 상업은행을 통한 소규모 기업 지원과 자본시장을 활용한 대기업 지원이 가능한 새로운 정책 기구(facilities)를 발표했다. 발행시장을 통한 회사채 매입 기구(Primary Market Corporate Credit Facility, [PMCCF](https://www.federalreserve.gov/monetarypolicy/pmccf.htm))와 유통시장을 통한 회사채 매입기구(Secondary Market Corporate Credit Facility, [SMCCF](https://www.federalreserve.gov/monetarypolicy/smccf.htm))이다. 또한 연준은 실물시장 지원을 위해 SPV를 설립하여 상업은행의 소규모 비즈니스 대출을 매입하는 [Main Street Lending Program](https://www.federalreserve.gov/monetarypolicy/mainstreetlending.htm)을 운영하였다. 상업은행에 유동성을 공급하던 전통적인 역할을 넘어 미국의 기업들에게도 유동성을 지원한 것이다. 개인을 제외한 거의 모든 사람들이 연준 대차대조표에 접근할 수 있게 된 것이다.
 
 연준의 대출 범위 확장과 관련하여 모랄 해저드를 발생시킬 수 있다는 지적이 많다. 2008년 GFC 당시 많은 평론가들이 잘못된 의사결정을 한 투자자들을 구원하는 것은 투자자들이 연준이 구원해줄 것이라 생각할 것이기 때문에 더 나쁜 투자 결과를 초래할 수 있다고 지적했다. 이러한 지적은 리만 브라더스 파산에 일정 부분 기여했다. 리만 브라더스의 파산은 모랄 해저드를 걱정했던 사람들이 존재하지 않을 만큼 금융 자산의 끔찍한 하락을 야기했다.
 
