@@ -86,5 +86,5 @@ Event 기준 분포가 Calendar 기준 분포보다 첨도가 낮고, 극단치�
 
 <img src="/assets/images/compare with normal dist_energy.png" width="100%" height="100%" title="에너지 업종 정규분포와 비교: Calendar(좌) vs. Event(우)"/>
 
-
+KL Divergence에 대한 내용은 [링크](https://roy8in.github.io/information_theory/2022/08/31/Kullback_Leibler_Divergence.html)를 참고
 

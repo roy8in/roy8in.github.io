@@ -2,15 +2,15 @@
 layout: post
 title: 『The Fabulous Decade』 NOTE (진행 중)
 date: 2022-09-10
-categories: History
+categories: Financial_History
 tag: History, Fed, 역사, 연준
 comments: True
 use_math: True
 ---
 
-1990년대 미국 경제 호황기를 느낄 수 있는 앨런 블라인더(Alan S. Blinder)와 재닛 옐런(Janet L. Yellen)이 쓴 [The Fabulous Decade: Macroeconomic Lessons from the 1990s](https://www.amazon.com/Fabulous-Decade-Macroeconomic-Lessons-1990s/dp/0870784676)에서 기억하고 싶은 부분들을 정리한다.
+1990년대 미국 경제 호황기를 느낄 수 있는 앨런 블라인더(Alan S. Blinder)와 재닛 옐런(Janet L. Yellen)이 쓴 [The Fabulous Decade: Macroeconomic Lessons from the 1990s](https://www.amazon.com/Fabulous-Decade-Macroeconomic-Lessons-1990s/dp/0870784676)에서 기억하고 싶은 부분 정리
 
-책에 소개된 차트들은 직접 그려보아 그때와 지금을 비교해본다.
+책에 소개된 차트들은 직접 그려서 그때와 지금을 비교해본다.
 
 ***
 
@@ -18,9 +18,9 @@ use_math: True
 
 1990년대 후반에는 실업률이 낮아지는데 물가가 안정되는 국면이 나타났다.
 
-<b>[그림] Economic Performance by Decade</b>
+<b>[그림] Economic Performance: 1960 ~ 2010</b>
 
-Real GDP Growth, Unemployment Rate, Inflation Rate
+<img src="/assets/images/GDP, Unemploy, Inflation.png" width="75%" height="75%" title="Economic Performance"/>
 
 <br>
 
@@ -83,7 +83,64 @@ Real GDP Growth, Unemployment Rate, Inflation Rate
 
 <b>[표] American Management Association Downsizing Surveys</b>
 
-Percentage Reporting Eliminating Jobs, Average Percentage Reduction Among These
+<table>
+    <colgroup>
+        <col style="width:25%">
+        <col style="width:25%">
+        <col style="width:25%">
+        <col style="width:25%">
+    </colgroup>
+    <tr style="background-color:lightgray">
+        <td style='text-align:center'>12 Months Ending</td> 
+        <td style='text-align:center'>(1) Percentag Reporting Eliminating Jobs</td> 
+        <td style='text-align:center'>(2) Average Percentage Reduction Among These</td> 
+        <td style='text-align:center'>(1)×(2)</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>June 1991</td> 
+        <td style='text-align:center'>43.8</td> 
+        <td style='text-align:center'>11.4</td> 
+        <td style='text-align:center'>5.0</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>June 1992</td> 
+        <td style='text-align:center'>36.0</td> 
+        <td style='text-align:center'>10.5</td> 
+        <td style='text-align:center'>3.8</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>June 1993</td> 
+        <td style='text-align:center'>32.6</td> 
+        <td style='text-align:center'>13.9</td> 
+        <td style='text-align:center'>4.5</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>June 1994</td> 
+        <td style='text-align:center'>30.3</td> 
+        <td style='text-align:center'>N/A</td> 
+        <td style='text-align:center'>N/A</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>June 1995</td> 
+        <td style='text-align:center'>27.3</td> 
+        <td style='text-align:center'>10.2</td> 
+        <td style='text-align:center'>2.8</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>June 1996</td> 
+        <td style='text-align:center'>27.9</td> 
+        <td style='text-align:center'>10.4</td> 
+        <td style='text-align:center'>2.9</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>June 1997</td> 
+        <td style='text-align:center'>19.0</td> 
+        <td style='text-align:center'>10.7</td> 
+        <td style='text-align:center'>2.0</td> 
+    </tr>
+</table>
+
+자료: American Management Association, private communication
 
 <br>
 
@@ -91,7 +148,38 @@ Percentage Reporting Eliminating Jobs, Average Percentage Reduction Among These
 
 <b>[표] Displaced Worker Surveys</b>
 
-Rate of Job Loss (%)
+<table>
+    <colgroup>
+        <col style="width:50%">
+        <col style="width:50%">
+    </colgroup>
+    <tr style="background-color:lightgray">
+        <td style='text-align:center'>3-Year Period</td> 
+        <td style='text-align:center'>Rate of Job Loss (%)</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>1989-91</td> 
+        <td style='text-align:center'>11.8</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>1991-93</td> 
+        <td style='text-align:center'>10.9</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>1993-95</td> 
+        <td style='text-align:center'>11.5</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>1995-97</td> 
+        <td style='text-align:center'>9.1</td> 
+    </tr>
+    <tr>
+		<td style='text-align:center'>1997-99</td> 
+        <td style='text-align:center'>8.6</td> 
+    </tr>
+</table>
+
+자료: Henry S. Forber, "Job Loss in the United States, 1981~1999", Working Paper ＃452, Industrial Relations Section, Princeton University, April 2001
 
 <br>
 
@@ -115,7 +203,9 @@ Rate of Job Loss (%)
 
 <b>[그림] The Federal Funds Rate and CPI Inflation</b>
 
-Federal funds target rate, Change in CPI-twelve-month trailing change
+<img src="/assets/images/FFR, CPI.png" width="75%" height="75%" title="The Federal Fnds Rate and CPI Inflation"/>
+
+<span style="color:blue">2000년 이전에 연준의 기준금리는 소비자물가의 전년비 상승률보다 높은 것이 일반적이었다. </span>
 
 <br>
 
@@ -137,9 +227,7 @@ Federal funds target rate, Change in CPI-twelve-month trailing change
 
 <b>[그림] The Federal Funds Target Rate, 1994~2000</b>
 
-Federal funds target rate
-
-<br>
+<img src="/assets/images/Federal Funds Target Rate.png" width="75%" height="75%" title="Federal Funds Target Rate"/>
 
 연준의 기준 금리 사이클은 1995년 1월 31일부터 2월 1일까지 진행된 FOMC 미팅에서 50bp 인상으로 마무리 되었다. 이 당시 경제는 둔화되는 조짐이 나타나기 시작했다. 미국 수출은 멕시코 금융 위기([Mexican peso crisis](https://en.wikipedia.org/wiki/Mexican_peso_crisis))의 여파로 쇠퇴하기 시작했다. 경착륙 우려가 증가하였으나 금융 시장은 여전히 더 긴축을 요구하고 있었다. 그린스펀은 "우리가 보아온 이 균열이 계쏙 된다면 또 다른 긴축 정책이 있을 것이라는 것은 결코 분명하지 않다"고 지적했다.
 

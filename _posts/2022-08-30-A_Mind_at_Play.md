@@ -9,7 +9,7 @@ comments: True
 
 정보이론을 창시한 천재 클러드 섀넌(Claude Shannon)의 일대기를 아주 잘 정리한 책 "저글러, 땜장이, 놀이꾼, 디지털 세상을 설계하다(지미 소니, 로브 굿맨)" 에서 기억해두고 싶은 부분을 정리
 
-정말 좋은 책이다. 자세한 내용은 구매해서 보길 추천: [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=233747074)
+정보이론에 관심이 있는 사람에게는 정말 좋은 책이다. 자세한 내용은 구매해서 보길 추천: [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=233747074)
 
 ***
 

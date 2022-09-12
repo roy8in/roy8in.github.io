@@ -8,9 +8,11 @@ comments: True
 use_math: True
 ---
 
-마르코 파픽(Macro Papic)이 독립리서치 BCA에서부터 지속한 지정학과 투자전략을 연결하여 설명한 Geopolitical Alpha 요약
+마르코 파픽(Macro Papic)이 저술한 지정학과 투자전략을 연결하는 프레임을 잘 설명한 도서 『Geopolitical Alpha』 요약
 
 자세한 내용은 구매해서 보길 강력 추천: [Amazon](https://www.amazon.com/Geopolitical-Alpha-Investment-Framework-Predicting/dp/1119740215), [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292711585)
+
+***
 
 ### 서문
 

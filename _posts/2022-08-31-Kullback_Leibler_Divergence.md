@@ -38,7 +38,7 @@ use_math: True
 
 $X$가 $x \in S_X$를 값으로 가질 수 있는 이산 확률 변수(discrete random variable)일 때, X의 엔트로피(entropy)는 다음과 같다.
 
-<center>$H[X]= - \sum_{x \in S_x} p(x) \log(p(x))$</center>
+<center>$H[X]= - \sum\limits_{x \in S_x} p(x) \log(p(x))$</center>
 
 
 
@@ -46,22 +46,22 @@ $X$가 $x \in S_X$를 값으로 가질 수 있는 이산 확률 변수(discrete 
 
 확률변수 $X$의 엔트로피를 측정할 때 $X$의 실제 분포 $p$가 아닌 잘못된 분포 $q$를 사용할 경우, 즉
 
-<center>$H_c(p|q) = - \sum_{x \in S_x} p(x) \log(q(x))$</center>
+<center>$H_c(p|q) = - \sum\limits_{x \in S_x} p(x) \log(q(x))$</center>
 
 는 $H(X)$ 보다 불확실성이 더해진다. 즉, 
 
 
 
-<center>$H_c(p|q) = - \sum_{x \in S_x} p(x) \log(q(x))=H(X)- \sum_{x \in S_x} p(x) \log( {q(x) \over p(x)})$</center>
+<center>$H_c(p|q) = - \sum\limits_{x \in S_x} p(x) \log(q(x))=H(X)- \sum\limits_{x \in S_x} p(x) \log( {q(x) \over p(x)})$</center>
 
 
 
-이므로, $H(X)$에 $- \sum_{x \in S_x} p(x) \log( {q(x) \over p(x)} )$ 만큼의 불확실성이 더해진다. 이 추가되는 불확실성을 쿨백-라이블러 발산(Kullback-Leibler Divergence)라고 부른다.
+이므로, $H(X)$에 $- \sum\limits_{x \in S_x} p(x) \log( {q(x) \over p(x)} )$ 만큼의 불확실성이 더해진다. 이 추가되는 불확실성을 쿨백-라이블러 발산(Kullback-Leibler Divergence)라고 부른다.
 
 
 
 쿨백-라이블러 발산(Kullback-Leibler Divergence)는 두 확률분포의 차이를 계산하는 데에 사용하는 함수로, 어떤 이상적인 분포($q$)에 대해, 그 분포를 근사하는 다른 분포($p$)를 사용해 샘플링을 한다면 발생할 수 있는 엔트로피 차이를 계산한다. 상대 엔트로피(relative entropy)라고도 한다.
 
-<center>$D_{KL} (p ||q) = - \sum_{x \in S_x} p(x) \log \left[ q(x)\over p(x) \right]$</center>
+<center>$D_{KL} (p ||q) = - \sum\limits_{x \in S_x} p(x) \log \left[ q(x)\over p(x) \right]$</center>
 
 여기서 $p(x)$와 $q(x)$가 닮을수록 $\log\left[ q(x)\over p(x) \right]$ 값이 0에 가까워지고 $D_{KL}$의 값은 0에 가까워 진다. 즉 Divergence가 적다.

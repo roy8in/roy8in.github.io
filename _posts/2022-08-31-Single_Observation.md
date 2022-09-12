@@ -16,19 +16,19 @@ use_math: True
 
 함수의 '모멘트'는 함수의 값들이 분포하는 모양(shape)을 정량적으로 측정하는 방법이다.
 
-이산확률변수 $X$의 확률분포함수를 $p(x)$라고 할 때, 확률분포함수 $p(x)$의 
+이산확률변수 $X$가 $x \in S_X$를 값으로 가지며, $X$의 확률분포함수를 $p(\cdot)$라고 할 때, 확률분포함수 $p$의 
 
-* 1차 모멘트는 평균(mean): $\sum X^{1} \times p(x)=E\left[X^1\right]$
+* 1차 모멘트는 평균(mean): $\sum\limits_{x \in S_X} x^{1} \times p(x)=E\left[X^1\right]$
 
-* 2차 모멘트는 분산(variance): $\sum X^{2} \times p(x)=E\left[X^2\right]$ 
+* 2차 모멘트는 분산(variance): $\sum\limits_{x \in S_X} x^{2} \times p(x)=E\left[X^2\right]$
 
-* 3차 모멘트는 왜도(skewness): $\sum X^{3} \times p(x)=E\left[X^3\right]$
+* 3차 모멘트는 왜도(skewness): $\sum\limits_{x \in S_X} x^{3} \times p(x)=E\left[X^3\right]$
 
-* 4차 모멘트는 첨도(kurtosis): $\sum X^{4} \times p(x)=E\left[X^4\right]$
+* 4차 모멘트는 첨도(kurtosis): $\sum\limits_{x \in S_X} x^{4} \times p(x)=E\left[X^4\right]$
 
 를 뜻한다.
 
-
+<br>
 
 대부분의 금융자산의 수익률은 정규분포보다 꼬리가 두꺼운(fat-tail) 분포의 모습을 보인다. 그런데 금융자산 수익률의 분산(2차 모멘트)의 추이를 보면 한 가지 특징이 관찰되는데
 
@@ -37,6 +37,8 @@ use_math: True
 3. 한 번 높아진 혹은 낮아진 분산 레벨이 꽤 오랜기간 지속되는 경향이 있다.
 
 이는 분산이 '소수의 관측치'에 의해 크게 영향을 받기 때문이다.
+
+<b>[그림] 다우존스 산업지수 월간수익률과 수익률의 표준편차 추이</b>
 
 <img src="/assets/images/djai monthly returns.png" width="90%" height="90%" title="다우존스 산업지수 월간수익률과 수익률의 표준편차 추이"/>
 
@@ -48,15 +50,17 @@ use_math: True
 
 개별 금융자산의 수익률을 $X_i$라고 했을 때
 
-$Max Q_2:= \frac{ \max_i \left[ X_i^2 \right]} {\sum_i X_i^2} $
+$Max Q_2:= \frac{ \max\limits_i \left[ X_i^2 \right]} {\sum\limits_i X_i^2} $
 
-$Max Q_4:= \frac{\max_i \left[ X_i^4 \right]}{\sum_i X_i^4} $
+$Max Q_4:= \frac{\max\limits_i \left[ X_i^4 \right]}{\sum\limits_i X_i^4} $
 
 를 계산해 본다. 이는 분산과 첨도를 계산함에 있어 개별 관측치가 미치는 영향의 최대값을 의미한다. (1차, 3차 모멘트는 음수가 될 수 있어서 제외한다.)
 
 다양한 금융자산 지수의 지수 시작일부터 2022년 8월 10일까지 일간 데이터를 기준으로 했을 때 결과는 아래와 같다.
 
-▼분산
+<br>
+
+<b>[표] 단 하나의 관측치에 의해 2차, 4차 모멘트가 받는 영향</b>
 
 |      지수      | Max Q2 | Max Q4 |   시작일   | 데이터 수 |
 | :------------: | :----: | :----: | :--------: | :-------: |
@@ -86,11 +90,9 @@ S&P500 지수의 경우 단 하루 수익률이 전체 분산의 3.4%, 전체 �
 
 금융자산 수익률은 정규분포가 아닌 것은 물론 상당한 fat-tail 분포를 보이고, fat-tail의 경우 분산, 왜도, 첨도 등의 통계치의 신뢰성이 담보되지 못한다.
 
-두 확률변수 $X$와 $Y$에 대해서
+두 확률변수 $X$와 $Y$에 대해서 $X$와 $X$ 사이의 2차 모멘트가 분산이고, $X$와 $Y$사이의 2차 모멘트와 유사한 것이 공분산(covariance)이라는 점을 고려했을 때
 
-$X$와 $X$ 사이의 2차 모멘트가 분산이고, $X$와 $Y$사이의 2차 모멘트와 유사한 것이 공분산(covariance)이라는 점을 고려했을 때
-
-$Var(X)= E\left[X^2\right]$, $Cov(X, Y)= E\left[X Y \right]$,
+$Var(X)= E\left[X^2\right]$, $Cov(X, Y)= E\left[X Y \right]$
 
 $X$와 $Y$ 사이의 공분산, 그리고 상관관계 역시 의학 등 다른 영역의 데이터와 비교했을 때 신뢰성이 높지 않다. $X$와 $Y$ 사이 공분산 추정에 오류가 있을 수 있고, $X$와 $Y$의 표준편차 추정에 어려움이 있기 때문이다.
 
@@ -98,4 +100,6 @@ $X$와 $Y$ 사이의 공분산, 그리고 상관관계 역시 의학 등 다른 
 
 정량분석의 기저에는 "큰 수의 법칙([Law of large numbers - Wikipedia](https://en.wikipedia.org/wiki/Law_of_large_numbers))"이 자리잡고 있다. 그런데 Fat-tail 분포라는 것은 단순히 엄청 큰 값 혹은 엄청 작은 값이 정규분포보다 자주 발생하는 것을 넘어 통계치의 추정이 매우 어렵고, 심지어 불가능한 것을 의미한다. 그 결과 큰 수의 법칙도 적용하기 힘들다.
 
-<img src="/assets/images/fat tail - initial jobless claims.png" width="80%" height="80%" title="미국 신규 실업수당 청구건수: 발표치, 누적 평균, 누적 표준편차"/>
+<b>[그림] 미국 신규 실업수당 청구건수: 발표치, 누적 평균, 누적 표준편차</b>
+
+<img src="/assets/images/fat tail - initial jobless claims.png" width="75%" height="75%" title="미국 신규 실업수당 청구건수: 발표치, 누적 평균, 누적 표준편차"/>
