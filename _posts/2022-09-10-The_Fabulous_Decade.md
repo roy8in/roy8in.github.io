@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 『The Fabulous Decade』 NOTE (진행 중)
+title: 『The Fabulous Decade』 NOTE
 date: 2022-09-10
 categories: Financial_History
 tag: History, Fed, 역사, 연준
@@ -229,7 +229,7 @@ use_math: True
 
 <img src="/assets/images/Federal Funds Target Rate.png" width="100%" height="100%" title="Federal Funds Target Rate"/>
 
-연준의 기준 금리 사이클은 1995년 1월 31일부터 2월 1일까지 진행된 FOMC 미팅에서 50bp 인상으로 마무리 되었다. 이 당시 경제는 둔화되는 조짐이 나타나기 시작했다. 미국 수출은 멕시코 금융 위기([Mexican peso crisis](https://en.wikipedia.org/wiki/Mexican_peso_crisis))의 여파로 쇠퇴하기 시작했다. 경착륙 우려가 증가하였으나 금융 시장은 여전히 더 긴축을 요구하고 있었다. 그린스펀은 "우리가 보아온 이 균열이 계쏙 된다면 또 다른 긴축 정책이 있을 것이라는 것은 결코 분명하지 않다"고 지적했다.
+연준의 기준 금리 사이클은 1995년 1월 31일부터 2월 1일까지 진행된 FOMC 미팅에서 50bp 인상으로 마무리 되었다. 이 당시 경제는 둔화되는 조짐이 나타나기 시작했다. 미국 수출은 멕시코 금융 위기([Mexican peso crisis](https://en.wikipedia.org/wiki/Mexican_peso_crisis))의 여파로 쇠퇴하기 시작했다. 경착륙 우려가 증가하였으나 금융 시장은 여전히 더 긴축을 요구하고 있었다. 그린스펀은 "우리가 보아온 이 균열이 계속 된다면 또 다른 긴축 정책이 있을 것이라는 것은 결코 분명하지 않다"고 지적했다.
 
 연준 위원의 공식적인 성명서는 통화 정책 스탠스에 대한 시장의 재평가(생각 변화)를 강화했다. 1995년 2월 1일 연준이 금리를 인상하고 3주 뒤 그린스펀은 의회 증언에서 경기 침체에 대비한 선제적인 조치의 가능성을 언급하며, "물가가 나쁜 모습을 보이고 있지만 근본적인 환경이 궁극적으로 인플레이션 압력을 줄이기 위해 작용하고 있다는 징후를 본다면, 정책 기조를 변경하지 않거나(금리인상을 하지 않거나) 완화할 때가 올 것입니다."
 
@@ -269,11 +269,11 @@ use_math: True
 
 1993년부터 1994년에 회사에서 공식적으로 지급하는 급여나 복리후생 이외의 직원들이 받을 수 있는 비공식적인 혜택인 부가 급여(fringe benefit)가 빠르게 하락하였고 1995년부터 낮은 수준을 유지했다.
 
-메디컬 케어 인플레이션이 1980년대에 두 자리수 이상으로 매우 심했는데, 1990년대에는 낮아졌다.
+특히 메디컬 케어 인플레이션이 1980년대에 두 자리수 이상으로 매우 심했는데, 1990년대에는 낮아졌다.
 
 <b>[그림] Changes in Wages and Salaries and Benefits in the Employment Cost Index</b>
 
-Four-quarter change in benefits, Four-quarter change in wages and salaries
+<img src="/assets/images/Compensation of employees.png" width="100%" height="100%" title="Compensation of employees"/>
 
 <br>
 
@@ -281,23 +281,25 @@ Four-quarter change in benefits, Four-quarter change in wages and salaries
 
 1996년과 1998년 사이의 일어난 일련의 가격 (하락) 충격 요인들은 실업률과 물가 상승률이 관계가 이전과 달랐던 점을 설명할 수 있다.
 
-<b>The Dollar and Import PRices</b>
+<b>The Dollar and Import Prices</b>
 
-1995년부터 시작된 강달러가 수입물가를 낮추는데 기여했다. 수입물품들은 소비자물가(CPI)의 항목이며, 직접적인 물가 하락 요인이 된다.
+1995년부터 시작된 강달러가 수입물가를 낮추는데 기여했다. 수입물품들은 소비자물가(CPI)의 항목이며, 직접적인 물가 하락 요인이 된다. <span style="color:blue">2021년 부터 미 달러가 강세를 보임에도 수입 물가 하락은 나타나지 않고 있다. </span>
 
 <b>[그림] Nonoil Import Prices and the Dollar</b>
 
-Real broad exchange rate index, Nonpetroleum import prices chain-weighted index
-
-<br>
+<img src="/assets/images/Non-Oil Import Prices and the Dollar.png" width="100%" height="100%" title="Non-Oil Import Prices and the Dollar"/>
 
 소비자물가 구성의 10~12%가 수입 물품이었으며, 1995년 2분기부터 1998년 말까지 진행된 미국 달러의 18% 강세는 동기간 소비자 물가 수준을 2% 낮추었다.
+
+<br>
 
 <b>Falling Oil Prices</b>
 
 1996년 4분기부터 1999년 1분기까지 유가가 반토막 나며 핵심 소비자물가도 생산자 단가 하락으로 낮아졌다. 수입가격과 유가 하락으로 노동자들의 더 많은 급여에 대한 필요성이 낮아지며 임금 상승을 방해하는 요인으로 작용했다.
 
 <b>[그림] Daily Price of West Texas Intermediate(WTI) Oil</b>
+
+<img src="/assets/images/WTI.png" width="100%" height="100%" title="WTI"/>
 
 <br>
 
@@ -338,21 +340,21 @@ Real broad exchange rate index, Nonpetroleum import prices chain-weighted index
 
 ### Chapter 8. Productivity Growth and Computer Prices
 
-1990년대 컴퓨터와 정보통신의 발전이 미국 비즈니스 생태계를 완전히 바꾸었고, 생산성을 크게 높였다.
+1990년대 컴퓨터와 정보통신의 발전이 미국 비즈니스 생태계를 완전히 바꾸었고, 생산성을 크게 높였다. 컴퓨터와 반도체 생산의 기술적 진보가 생산성 증가로 이어진 것이다.
 
 생산성이 증가하자 투자가 증가하고, 기업이익이 증가하였으며 주식 밸류에이션이 높아졌다.
 
-<b>[그림] Four-Year Average Growth of Productivity in Nonfarm Business, 1963~2000</b>
+<b>[그림] Four-Year Average Growth of Productivity in Nonfarm Business</b>
 
-<br>
+<img src="/assets/images/Nonfarm Productivity.png" width="100%" height="100%" title="Nonfarm Productivity"/>
 
-컴퓨터와 반도체 생산의 기술적 진보는 생산성 증가로 이어졌다. 컴퓨터와 소프트웨어 가격 하락은 투자 증가와 컴퓨터 사용 증가로 이어졌다. 컴퓨터, 관련 장비, 소프트웨어 가격 하락은 투자 Boom을 야기했다.
+컴퓨터와 소프트웨어 가격 하락은 투자 증가와 컴퓨터 사용 증가로 이어졌다.
 
-<b>[그림] Changes in Computer PRices</b>
+<b>[그림] Changes in Computer Prices</b>
 
-<br>
+<img src="/assets/images/Computer Price.png" width="100%" height="100%" title="Changes in Computer Prices"/>
 
-1990년대 후반 생산성 증가의 결과 실업률이 낮아졌고 물가가 하락했다. 
+1990년대 후반 생산성 증가의 결과 낮은 실업률에도 물가가 안정된 수준을 유지할 수 있었던 것이다.
 
 <br>
 
@@ -363,4 +365,124 @@ Real broad exchange rate index, Nonpetroleum import prices chain-weighted index
 노동시장이 강했음에도 생산성이 워낙 높아 물가가 상승하지 않았다. 그럼에도 불구하고 연준은 긴축을 했다.
 
 FOMC는 금리 인상으로 Output을 줄이고 싶었다. 생산성 증가로 NAIRU가 왜곡되어 있다고 생각했기 때문이다.
+
+<br>
+
+<br>
+
+***
+
+<br>
+
+Charting 관련 Python에서 Fred API를 이용할 때 사용하는 코드
+
+```python
+from fredapi import Fred
+fred = Fred(api_key='XXXXXXX')
+import pandas as pd
+
+
+# Economic Performance by Degade
+REAL_GDP = 'GDPC1'
+UNEMPLOYMENT_RATE = 'UNRATE'
+INFLATION_RATE = 'CPIAUCSL'
+
+df1 = {}
+df1['Real GDP growth (%, QoQ)'] = fred.get_series(REAL_GDP)
+df1['Unemployment rate (%)'] = fred.get_series(UNEMPLOYMENT_RATE)
+df1['Inflation rate (%, yoy)'] = fred.get_series(INFLATION_RATE)
+df1 = pd.DataFrame(df1)
+
+
+# Fed Funds Rate, CPI
+FED_FUNDS_RATE = "FEDFUNDS"
+
+df2 = {}
+df2['Federal Funds Effective Rate'] = fred.get_series(FED_FUNDS_RATE)
+df2['CPI: 12month trailing change'] = fred.get_series(INFLATION_RATE)
+df2 = pd.DataFrame(df2)
+
+
+# Federal Funds Target Rate
+FED_FUNDS_TARGET = 'DFEDTAR'
+
+df3 = {}
+df3['Federal Funds Target Rate'] = fred.get_series(FED_FUNDS_TARGET)
+df3 = pd.DataFrame(df3)
+
+
+# NAIRU, Unemployment Rate
+NAIRU = 'NROUST'
+
+df4 = {}
+df4['NAIRU (%)'] = fred.get_series(NAIRU)
+df4['Unemployment Rate (%)'] = fred.get_series(UNEMPLOYMENT_RATE)
+df4['Federal Funds Target Rate (%)'] = fred.get_series(FED_FUNDS_RATE)
+df4 = pd.DataFrame(df4)
+df4['NAIRU (%)']=df4['NAIRU (%)'].ffill()
+
+
+# Regression: Unemployment rate & CPI Inflation
+UNEMPLOYMENT_RATE = 'UNRATE'
+INFLATION_RATE = 'CPIAUCSL'
+
+df5 = {}
+df5['Unemployment Rate'] = fred.get_series(UNEMPLOYMENT_RATE)
+df5['CPI Inflation'] = fred.get_series(INFLATION_RATE)
+df5 = pd.DataFrame(df5)
+
+df = df5.resample('Y').last()
+col = df.columns
+x = df[col[0]]['1960':'1999']
+y = df[col[1]].pct_change(1).diff(1)['1960':'1999']*100
+
+
+# Compensation of employees
+WAGES_AND_SALARIES = 'A576RC1'
+SUPPLEMENTS_TO_WAGES_AND_SALARIES = 'A038RC1'
+
+df6 = {}
+df6['Wages and Salaries'] = fred.get_series(WAGES_AND_SALARIES)
+df6['Supplements to wages and salaries'] = fred.get_series(SUPPLEMENTS_TO_WAGES_AND_SALARIES)
+df6 = pd.DataFrame(df6)
+
+
+# Non-oil Import Prices and the Dollar
+REAL_BROAD_EXCHANGE_RATE_INDEX = 'RBUSBIS'
+IMPORT_PRICE_INDEX_EX_PETROLEUM = 'IREXPET'
+
+df7 = {}
+df7['Real Broad Exchange Rate Index'] = fred.get_series(REAL_BROAD_EXCHANGE_RATE_INDEX)
+df7['Nonpetroleum Import Prices'] = fred.get_series(IMPORT_PRICE_INDEX_EX_PETROLEUM)
+df7 = pd.DataFrame(df7)
+
+
+# WTI
+WTI = 'DCOILWTICO'
+
+df8 = {}
+df8['WTI'] = fred.get_series(WTI)
+df8 = pd.DataFrame(df8)
+
+
+# Nonfarm Business Labor Productivity
+NONFARM_PRODUCTIVITY = 'OPHNFB'
+
+df9 = {}
+df9['Productivity in Nonfarm Business'] = fred.get_series(NONFARM_PRODUCTIVITY)
+df9 = pd.DataFrame(df9)
+
+
+# Computer Price
+FINAL_SALES_OF_COMPUTERS = 'BB01RG3Q086SBEA'
+
+df10 = {}
+df10['Computer Prices'] = fred.get_series(FINAL_SALES_OF_COMPUTERS)
+df10 = pd.DataFrame(df10)
+
+```
+
+
+
+
 
