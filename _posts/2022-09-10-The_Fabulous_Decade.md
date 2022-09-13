@@ -20,7 +20,7 @@ use_math: True
 
 <b>[그림] Economic Performance: 1960 ~ 2010</b>
 
-<img src="/assets/images/GDP, Unemploy, Inflation.png" width="75%" height="75%" title="Economic Performance"/>
+<img src="/assets/images/GDP, Unemploy, Inflation.png" width="100%" height="100%" title="Economic Performance"/>
 
 <br>
 
@@ -203,7 +203,7 @@ use_math: True
 
 <b>[그림] The Federal Funds Rate and CPI Inflation</b>
 
-<img src="/assets/images/FFR, CPI.png" width="75%" height="75%" title="The Federal Fnds Rate and CPI Inflation"/>
+<img src="/assets/images/FFR, CPI.png" width="100%" height="100%" title="The Federal Fnds Rate and CPI Inflation"/>
 
 <span style="color:blue">2000년 이전에 연준의 기준금리는 소비자물가의 전년비 상승률보다 높은 것이 일반적이었다. </span>
 
@@ -227,7 +227,7 @@ use_math: True
 
 <b>[그림] The Federal Funds Target Rate, 1994~2000</b>
 
-<img src="/assets/images/Federal Funds Target Rate.png" width="75%" height="75%" title="Federal Funds Target Rate"/>
+<img src="/assets/images/Federal Funds Target Rate.png" width="100%" height="100%" title="Federal Funds Target Rate"/>
 
 연준의 기준 금리 사이클은 1995년 1월 31일부터 2월 1일까지 진행된 FOMC 미팅에서 50bp 인상으로 마무리 되었다. 이 당시 경제는 둔화되는 조짐이 나타나기 시작했다. 미국 수출은 멕시코 금융 위기([Mexican peso crisis](https://en.wikipedia.org/wiki/Mexican_peso_crisis))의 여파로 쇠퇴하기 시작했다. 경착륙 우려가 증가하였으나 금융 시장은 여전히 더 긴축을 요구하고 있었다. 그린스펀은 "우리가 보아온 이 균열이 계쏙 된다면 또 다른 긴축 정책이 있을 것이라는 것은 결코 분명하지 않다"고 지적했다.
 
@@ -241,29 +241,25 @@ use_math: True
 
 ### Chapter 6. The Fed Forbears and the Phillips Curve Cooporates
 
-미국 경제는 1996년부터 수년간 양호한 수준을 유지했다. 실업률은 NAIRU가 1999년까지 5.5%~6.0% 사이로 안정적으로 떨어졌다는 대중적 견해가 거짓임을 말해줬다. 미국의 1999년 12월 실업률은 4.1%였으며 이는 29년래 가장 낮은 수준이었다. 실질 GDP 성장률의 평균은 1996년부터 1999년까지 평균 4.5% 성장했으며, 이는 잠재성장률을 상회하는 수준이었다. 
+미국 경제는 1996년부터 수년간 양호한 수준을 유지했다. 실업률은 NAIRU가 1999년까지 5.5%~6.0% 사이로 안정적으로 떨어졌다는 대중적 견해가 거짓임을 말해줬다. 미국의 1999년 12월 실업률은 4.1%였으며 이는 29년래 가장 낮은 수준이었다. 1998년 금융 위기에 대응한 변화를 제외하고 1996년 초부터 1999년 여름까지 연준의 통화정책을 한 단어로 설명하자면 "인내(forberance)"이다. 
 
-1998년 금융 위기에 대응한 변화를 제외하고 1996년 초부터 1999년 여름까지 연준의 통화정책을 한 단어로 설명하자면 "인내(forberance)"이다. 실제 해당 기간에 인플레이션이 오르지 않았기 때문에 기준금리를 올리지 않을 수 있었다.
+<b>[그림] NAIRU, Unemployment Rate and Federal Funds Rates</b>
 
-<b>[표] Measures of Consumer Price Inflation</b>
+<img src="/assets/images/NAIRU, Unemployment Rate.png" width="100%" height="100%" title="NAIRU, Unemployment Rate"/>
 
-CPI-U, PCE, CPI-U-RS,
-
-Core CPI-U, Core PCE, Core CPI-U-RS
+실질 GDP 성장률의 평균은 1996년부터 1999년까지 평균 4.5% 성장했으며, 이는 잠재성장률을 상회하는 수준이었다. 그러나 해당 기간에 인플레이션이 부재했기 때문에 기준금리를 인상하지 않을 수 있었다.
 
 <br>
 
 실업률이 매우 낮았음에도핵심 소비자 물가가 상승하지 않은 점은 FOMC 위원들과 많은 경제학자들, 백악관, 미국 의회 예산처(Congressional Budget Office, CBO) 등을 놀라게 했다.
 
-<b>[그림] Unemployment and the Change in CPI Inflation</b>
+<b>[그림] Unemployment and the Change in CPI Inflation, 1960-99</b>
 
-x-axis: Civilian unemployment rate
+<img src="/assets/images/REGRESSION_Unemployment rate, CPI.png" width="100%" height="100%" title="Regression: Unemployment Rate & CPI Inflation, Unemployment Rate"/>
 
-y-axis: Change in CPI inflation rate
+1997년과 1998년에는 실업률과 비교해 유난히 물가가 낮았다. 
 
 <br>
-
-1997년과 1998년에는 유난히 물가가 낮았다. 
 
 #### Surprisingly Moderate Wage Inflation
 
@@ -301,7 +297,7 @@ Real broad exchange rate index, Nonpetroleum import prices chain-weighted index
 
 1996년 4분기부터 1999년 1분기까지 유가가 반토막 나며 핵심 소비자물가도 생산자 단가 하락으로 낮아졌다. 수입가격과 유가 하락으로 노동자들의 더 많은 급여에 대한 필요성이 낮아지며 임금 상승을 방해하는 요인으로 작용했다.
 
-<b>[그림] Daily Price of West Texas Intermediate Oil</b>
+<b>[그림] Daily Price of West Texas Intermediate(WTI) Oil</b>
 
 <br>
 
