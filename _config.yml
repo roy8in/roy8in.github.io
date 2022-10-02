@@ -60,21 +60,46 @@ plugins:
 #  - jekyll-feed
 
 
-
-
-disqus:
-    comments: true
-    shortname: roy8in-github-blog
-
-
+# Comments
+comments:
+  provider: "disqus"
+  disqus:
+     shortname: "roy8in-github-blog"
+     
 # Math equation
-
 markdown: kramdown
-
 highlighter: rouge
-
 lsi: false
-
 excerpt_separator: "\n\n"
-
 incremental: false
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+# Site Footer
+footer:
+  links:
+    - label: "Github"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/roy8in"
