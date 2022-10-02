@@ -54,8 +54,16 @@ plainwhite:
 # Build settings
 #theme: plainwhite
 
+# Configure the plugin here
+category_path: "category"
+category_layout: "category.html"
+
+
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 #  - jekyll-feed
 
@@ -100,6 +108,6 @@ defaults:
 # Site Footer
 footer:
   links:
-    - label: "Github"
+    label: "Github"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/roy8in"
