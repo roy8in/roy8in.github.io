@@ -1,5 +1,5 @@
 ---
 layout: category
-title: 'Information Theory'
+title: 'Information_Theory'
 ---
 

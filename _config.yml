@@ -10,7 +10,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Roy
-  tagline: Roy 블로그
+  tagline: Finance
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -19,14 +19,18 @@ plainwhite:
   html_lang: "ko" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   condensed_mobile:
     #- home
-
     - page
-        - post
+    - post
+
+  navigation:
+    - title: Home
+      url: "/"
 
   # generate social links in footer
   social_links:
     #twitter: samarsault
     github:  roy8in
+    email: roy8in@gmail.com
     #linkedIn: in/samarsault
     #dribbble: jekyll
     #flickr:   jekyll
@@ -37,7 +41,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    email: roy8in@gmail.com
+    
 
     # Mastodon instances
     # mastodon:
@@ -62,11 +66,7 @@ category_layout: "category.html"
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-#  - jekyll-feed
-
+  
 
 # Comments
 comments:

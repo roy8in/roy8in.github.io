@@ -1,27 +1,7 @@
 ---
 layout: default
 ---
-  <div class="site-category">
-    <ul class='cat1'>
-      <li ><a href="/" class="ctext">Quantitative</a>
-        <ul>
-          <li ><a href="/category/Quant" class="ctext">Quant</a></li>
-          <li ><a href="/category/Information_Theory" class="ctext">Information Theory</a></li>
-        </ul>
-      </li>
-      <li><a href="/" class="ctext">Finance</a>
-        <ul>
-          <li><a href="/category/Financial_History" class="ctext">Financial History</a></li>
-          <li><a href="/category/Investment" class="ctext">Investment</a></li>
-          <li><a href="/category/Monetary_System" class="ctext">Monetary System</a></li>
-          <li><a href="/category/Geopolitics" class="ctext">Geopolitics</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-
-
-  <ul class="posts-list">
+<ul class="posts-list">
   
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
@@ -43,11 +23,11 @@ layout: default
           </ul>
           {%- endif -%}
         </div>
-        <!--<div class="post">
+        <div class="post">
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
-        </div> 내용 표시 -->
+        </div>
       </li>
     <!--<li>
       <h3>

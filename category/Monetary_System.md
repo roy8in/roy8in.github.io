@@ -1,5 +1,5 @@
 ---
 layout: category
-title: 'Monetary System'
+title: 'Monetary_System'
 ---
 
