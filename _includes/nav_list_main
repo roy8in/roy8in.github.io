@@ -1,0 +1,57 @@
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+        <span class="nav__sub-title">Quantitative</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Quant" %}
+                        <li><a href="/categories/Quant" class="">Quant ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Information_Theory" %}
+                        <li><a href="/categories/Information_Theory" class="">Information Theory ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">Finance</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Monetary_System" %}
+                        <li><a href="/categories/Monetary_System" class="">Monetary System ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Financial_History" %}
+                        <li><a href="/categories/Monetary_System" class="">Monetary System ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Geopolitics" %}
+                        <li><a href="/categories/Geopolitics" class="">Geopolitics ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Investment" %}
+                        <li><a href="/categories/Investment" class="">Investment ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+  </ul>
+</nav>
