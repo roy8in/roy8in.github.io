@@ -2,8 +2,10 @@
 layout: post
 title: 『The Fabulous Decade』 NOTE
 date: 2022-09-10
-categories: Financial_History
-tag: History, Fed, 역사, 연준
+categories: 
+    - Financial_History
+tag: 
+    - [Fed]
 comments: True
 use_math: True
 ---

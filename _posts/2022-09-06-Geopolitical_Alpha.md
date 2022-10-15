@@ -2,8 +2,10 @@
 layout: post
 title: 『Geopolitical Alpha』 NOTE (진행 중)
 date: 2022-09-06
-categories: Geopolitics
-tag: Geo, Geopolitics, 지정학
+categories: 
+    - Geopolitics
+tag: 
+    - [Geopolitics]
 comments: True
 use_math: True
 ---

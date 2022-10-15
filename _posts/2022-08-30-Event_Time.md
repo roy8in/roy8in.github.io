@@ -5,7 +5,7 @@ date: 2022-08-30
 categories: 
     - Quant
 tag: 
-    - [Mahalanobis, Distance, Probability, Quant, Quantitative, Information Theory, python]
+    - [Mahalanobis Distance, python]
 comments: true
 use_math: true
 ---

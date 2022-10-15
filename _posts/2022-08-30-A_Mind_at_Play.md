@@ -5,7 +5,7 @@ date: 2022-08-30
 categories: 
     - Information_Theory
 tag: 
-    - [Information Theory, Probability, Quantitative, Quant, Claude Shannon, Machine Learning]
+    - [Claude Shannon, Machine Learning]
 comments: True
 ---
 

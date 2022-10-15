@@ -2,8 +2,10 @@
 layout: post
 title: Kullback-Leibler Divergence
 date: 2022-08-31
-categories: Information_Theory
-tag: Information Theory, Probability
+categories: 
+    - Information_Theory
+tag: 
+    - [Probability]
 comments: True
 use_math: True
 ---
