@@ -20,14 +20,14 @@ title                    : "Roy's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Roy8in"
-description              : "내가 보려고 만든 블로그"
-url                      : "https://roy8in.github.io"
+description              : #
+url                      : #
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "roy8in/comments"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "내가 보려고 만든 블로그"
-# breadcrumbs            : false # true, false (default)
+masthead_title           : # 
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "utterances"
@@ -50,8 +50,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : false # true, false (default)
+search_full_content      : false # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
@@ -87,61 +87,61 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-180092851-1"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
   name             : "Roy"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "내가 보려고 만든 블로그"
-  location         : "Jeonju, South Korea"
-  email            : "roy8in@gmail.com"
+  bio              : # 
+  # location         : "Jeonju, South Korea"
 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:roy8in@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/roy8in"
+    #- label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://your-website.com"
+    #- label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    #- label: "Facebook"
+    #    icon: "fab fa-fw fa-facebook-square"
+    #    url: "https://facebook.com/"
+    
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/roy8in"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    # - label: "Twitter"
+    # icon: "fab fa-fw fa-twitter-square"
+    # url:
+    # - label: "Facebook"
+    # icon: "fab fa-fw fa-facebook-square"
+    # url:
+    # - label: "GitLab"
+    # icon: "fab fa-fw fa-gitlab"
+    # url:
+    # - label: "Bitbucket"
+    # icon: "fab fa-fw fa-bitbucket"
+    # url:
+    # - label: "Instagram"
+    # icon: "fab fa-fw fa-instagram"
+    # url:
 
 
 # Reading Files
@@ -282,11 +282,5 @@ defaults:
       comments: true
       share: true
       related: true
-  
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+      mathjax: true
+      sidebar_main: true

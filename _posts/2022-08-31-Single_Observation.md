@@ -2,10 +2,10 @@
 layout: post
 title: Fat Tail, Single Observation
 date: 2022-08-31
-categories: Quant
-tag: Quantitative, Fat tail, Quant, 정량분석, 퀀트
-comments: True
-use_math: True
+categories: 
+    - Quant
+tag:
+    - [Fat-tail]
 ---
 
 금융자산 수익률은 두꺼운 꼬리(fat-tail) 분포를 띄는 것이 일반적이다. Fat tail은 단순히 좌, 우의 극단적인 값이 정규(Normal)분포보다 더 흔하게 발생할 뿐만 아니라 수많은 통계치의 추정을 어렵게 한다.
@@ -16,7 +16,7 @@ use_math: True
 
 함수의 '모멘트'는 함수의 값들이 분포하는 모양(shape)을 정량적으로 측정하는 방법이다.
 
-이산확률변수 $X$가 $x \in S_X$를 값으로 가지며, $X$의 확률분포함수를 $p(\cdot)$라고 할 때, 확률분포함수 $p$의 
+이산확률변수 \\(X\\)가 $x \in S_X$를 값으로 가지며, $X$의 확률분포함수를 $p(\cdot)$라고 할 때, 확률분포함수 $p$의 
 
 * 1차 모멘트는 평균(mean): $\sum\limits_{x \in S_X} x^{1} \times p(x)=E\left[X^1\right]$
 
