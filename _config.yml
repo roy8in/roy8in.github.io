@@ -29,21 +29,6 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # 
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : "utterances"
-  utterances:
-    theme                : "github-light"
-    issue_term           : "pathname"
-  giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -260,6 +245,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+
+
+comments:
+  provider: "disqus"
+  disqus:
+     shortname: "roy8in-github-blog"
 
 # HTML Compression
 # - https://jch.penibelst.de/
