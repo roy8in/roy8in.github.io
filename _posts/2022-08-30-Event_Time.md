@@ -2,8 +2,10 @@
 layout: post
 title: Event Time
 date: 2022-08-30
-categories: Quant
-tag: Mahalanobis, Distance, Probability, Quant, Quantitative, Information Theory, python, 마할라노비스, 거리, 확률, 퀀트, 계량분석, 정보이론, 파이썬
+categories: 
+    - Quant
+tag: 
+    - [Mahalanobis, Distance, Probability, Quant, Quantitative, Information Theory, python]
 comments: true
 use_math: true
 ---
@@ -69,7 +71,7 @@ def indexer(df_returns, window = 260, threshold = 100):
 
 1989년 9월 11일부터 2022년 8월 29일까지 미국 S&P500 지수의 GICS 기준 하위 10개 섹터 지수들의 일간 수익률을 기준으로 threshold 100을 기준으로 사건 집약도를 계산했다. 이를 기준으로 새로운 indexing을 해보면 사건 집약도 기준 한 구간은 평균 10영업일이었다. S&P500 에너지 업종 지수의 10영업일 간격 수익률을 계산(10일 수익률, 이하 Calendar)한 결과와 Mahalanobis를 이용해 사건 집약도 기준 구간 수익률(이하 Event)의 분포를 함께 그려보면 다음과 같다.
 
-<img src="/assets/images/Comparing return distribution_energy.png" width="65%" height="65%" title="에너지 업종 기간 수익률 분포 비교: Calendar(좌) vs. Event(우)"/>
+![image](/assets/images/Comparing return distribution_energy.png")
 
 Event 기준 분포가 Calendar 기준 분포보다 첨도가 낮고, 극단치가 적게 발생하는 것을 확인할 수 있다. 주요 통계치를 비교해보면 아래와 같다.
 
@@ -84,7 +86,7 @@ Event 기준 분포가 Calendar 기준 분포보다 첨도가 낮고, 극단치�
 
 같은 평균과 같은 표준편차를 갖는 정규분포의 pdf와 비교해보면 Event 기준 분포가 더욱 정규분포와 닮았음을 알 수 있다.
 
-<img src="/assets/images/compare with normal dist_energy.png" width="100%" height="100%" title="에너지 업종 정규분포와 비교: Calendar(좌) vs. Event(우)"/>
+![image](/assets/images/compare with normal dist_energy.png)
 
 KL Divergence에 대한 내용은 [링크](https://roy8in.github.io/information_theory/2022/08/31/Kullback_Leibler_Divergence.html)를 참고
 
