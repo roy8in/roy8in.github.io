@@ -1,18 +1,43 @@
-<div class="site-category">
-    <ul class='cat1'>
-      <li><a href="/" class="ctext">Qunatitative</a>
-        <ul>
-          <li><a href="/category/Quant" class="ctext">Quant</a></li>
-          <li><a href="/category/Information_Theory" class="ctext">Information Theory</a></li>
-        </ul>
-      </li>
-      <li><a href="/" class="ctext">Finance</a>
-        <ul>
-          <li><a href="/category/Financial_History" class="ctext">Financial History</a></li>
-          <li><a href="/category/Investment" class="ctext">Investment</a></li>
-          <li><a href="/category/Monetary_System" class="ctext">Monetary System</a></li>
-          <li><a href="/category/Geopolitics" class="ctext">Geopolitics</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+  {% for i in (1..categories_max) reversed %}
+    {% for category in site.categories %}
+      {% if category[1].size == i %}
+        <li>
+          <a href="#{{ category[0] | slugify }}">
+            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% for i in (1..categories_max) reversed %}
+  {% for category in site.categories %}
+    {% if category[1].size == i %}
+      <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ category[0] }}</h2>
+        <div class="entries-{{ entries_layout }}">
+          {% for post in category.last %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
