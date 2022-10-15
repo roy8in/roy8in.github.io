@@ -1,4 +1,4 @@
-title: Roy 블로그
+title: Roy Blog
 author: roy8in
 email: roy8in@gmail.com
 description: roy
@@ -6,8 +6,15 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+
+
+# Saas/SCSS
 sass:
   sass_dir: _sass
+  style: compressed
+
+
+
 plainwhite:
   name: Roy
   tagline: Finance
@@ -16,7 +23,7 @@ plainwhite:
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/profile_image.png"
-  html_lang: "ko" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
+  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   condensed_mobile:
     #- home
     - page
@@ -28,19 +35,19 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    #twitter: samarsault
-    github:  roy8in
+    #twitter: 
+    github: roy8in
     email: roy8in@gmail.com
-    #linkedIn: in/samarsault
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
+    #linkedIn: in/
+    #dribbble: 
+    #flickr:   
+    #instagram: 
+    #pinterest: 
+    #youtube: 
+    #facebook: 
+    #soundcloud: 
+    #telegram: 
+    #gitlab: 
     
 
     # Mastodon instances
@@ -55,14 +62,14 @@ plainwhite:
 #header_pages:
 # - about.md
 
-# Build settings
-#theme: plainwhite
 
 # Configure the plugin here
 category_path: "category"
 category_layout: "category.html"
 
 
+# Build settings
+# theme: plainwhite
 
 plugins:
   - jekyll-seo-tag

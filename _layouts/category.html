@@ -1,34 +1,54 @@
 ---
 layout: default
 ---
+  <div class="site-category">
+    <ul class='cat1'>
+      <li><a href="/" class="ctext">Qunatitative</a>
+        <ul>
+          <li><a href="/category/Quant" class="ctext">Quant</a></li>
+          <li><a href="/category/Information_Theory" class="ctext">Information Theory</a></li>
+        </ul>
+      </li>
+      <li><a href="/" class="ctext">Finance</a>
+        <ul>
+          <li><a href="/category/Financial_History" class="ctext">Financial History</a></li>
+          <li><a href="/category/Investment" class="ctext">Investment</a></li>
+          <li><a href="/category/Monetary_System" class="ctext">Monetary System</a></li>
+          <li><a href="/category/Geopolitics" class="ctext">Geopolitics</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+
 <ul class="posts-list">
   
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
-	<li>
-        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <h2 class="post-title">{{ post.title | escape }}</h2>
-        </a>
-        <div class="post-meta">
-          <div class="post-date">
-            <i class="icon-calendar"></i>
-            {{ post.date | date: date_format }}
-          </div>
-          {%- if post.categories.size > 0-%}
-          <ul class="post-categories">
-            {%- for tag in post.categories -%}
-            <li>{{ tag }}</li>
-            {%- endfor -%}
-          </ul>
-          {%- endif -%}
+    <li>
+      {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <h2 class="post-title">{{ post.title | escape }}</h2>
+      </a>
+      <div class="post-meta">
+        <div class="post-date">
+          <i class="icon-calendar"></i>
+          {{ post.date | date: date_format }}
         </div>
-        <div class="post">
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </div>
-      </li>
+        {%- if post.categories.size > 0-%}
+        <ul class="post-categories">
+          {%- for tag in post.categories -%}
+          <li>{{ tag }}</li>
+          {%- endfor -%}
+        </ul>
+        {%- endif -%}
+      </div>
+      <div class="post">
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </div>
+    </li>
     <!--<li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
