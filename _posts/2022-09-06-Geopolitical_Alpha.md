@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 『Geopolitical Alpha』 NOTE (진행 중)
 date: 2022-09-06
 categories: 

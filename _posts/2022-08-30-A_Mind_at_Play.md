@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 『저글러, 땜장이, 놀이꾼, 디지털 세상을 설계하다』 NOTE
 date: 2022-08-30
 categories: 

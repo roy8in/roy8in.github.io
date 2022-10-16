@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fat Tail, Single Observation
 date: 2022-08-31
 categories: 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 『Central Banking 101』 NOTE (진행 중)
 date: 2022-09-03
 categories: 

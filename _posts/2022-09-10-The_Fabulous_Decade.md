@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 『The Fabulous Decade』 NOTE
 date: 2022-09-10
 categories: 

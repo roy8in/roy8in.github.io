@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kullback-Leibler Divergence
 date: 2022-08-31
 categories: 

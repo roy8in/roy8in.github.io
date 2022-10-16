@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Event Time
 date: 2022-08-30
 categories: 
