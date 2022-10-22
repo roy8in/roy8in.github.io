@@ -37,7 +37,7 @@ use_math: true
 >
 > 아래 그림에서 <span style="color:red">점 A</span>는 <span style="color:green">점 B</span>보다 유클리드 거리는 길다. 하지만 <span style="color:red">점 A</span>는 두 변수의 부호가 같은 반면, <span style="color:green">점 B</span>는 이전과 다르게 두 변수의 부호가 다르다. 따라서 미리 설정한 타원의 영역을 벗어나고, 그 결과 Mahalanobis 거리가 더 길게 계산된다. 즉 Mahalanobis 거리는 한 점에서 정규분포 $\mathcal{N}(\mu, \Sigma)$ 까지의 거리를 측정한다.
 >
-> <img src="/assets/images/Mahalanobis_distance1.png" width="90%" height="90%" title="점 A는 점 B보다 Mahalanobis 거리가 가깝다."/>
+> ![image](/assets/images/Mahalanobis_distance1.png)
 
 
 
@@ -70,7 +70,7 @@ def indexer(df_returns, window = 260, threshold = 100):
 
 1989년 9월 11일부터 2022년 8월 29일까지 미국 S&P500 지수의 GICS 기준 하위 10개 섹터 지수들의 일간 수익률을 기준으로 threshold 100을 기준으로 사건 집약도를 계산했다. 이를 기준으로 새로운 indexing을 해보면 사건 집약도 기준 한 구간은 평균 10영업일이었다. S&P500 에너지 업종 지수의 10영업일 간격 수익률을 계산(10일 수익률, 이하 Calendar)한 결과와 Mahalanobis를 이용해 사건 집약도 기준 구간 수익률(이하 Event)의 분포를 함께 그려보면 다음과 같다.
 
-![image](/assets/images/Comparing return distribution_energy.png")
+![image](/assets/images/Comparing return distribution_energy.png)
 
 Event 기준 분포가 Calendar 기준 분포보다 첨도가 낮고, 극단치가 적게 발생하는 것을 확인할 수 있다. 주요 통계치를 비교해보면 아래와 같다.
 
