@@ -50,9 +50,9 @@ use_math: true
 
 개별 금융자산의 수익률을 $X_i$라고 했을 때
 
-$Max Q_2:= \frac{ \max\limits_i \left[ X_i^2 \right]} {\sum\limits_i X_i^2} $
+$Max\;Q_2:= \frac{ \max\limits_i \left[ X_i^2 \right]} {\sum\limits_i X_i^2} $
 
-$Max Q_4:= \frac{\max\limits_i \left[ X_i^4 \right]}{\sum\limits_i X_i^4} $
+$Max \; Q_4:= \frac{\max\limits_i \left[ X_i^4 \right]}{\sum\limits_i X_i^4} $
 
 를 계산해 본다. 이는 분산과 첨도를 계산함에 있어 개별 관측치가 미치는 영향의 최대값을 의미한다. (1차, 3차 모멘트는 음수가 될 수 있어서 제외한다.)
 
