@@ -1,5 +1,5 @@
 ---
-title: 러셀 내피어(Russell Napier) 인터뷰, Financial Repression
+title: 러셀 내피어 인터뷰 (Financial Repression)
 date: 2022-10-23
 categories:
  - Investment
