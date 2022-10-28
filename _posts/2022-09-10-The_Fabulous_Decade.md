@@ -21,7 +21,7 @@ use_math: True
 
 <b>[그림] Economic Performance: 1960 ~ 2010</b>
 
-<img src="/assets/images/GDP, Unemploy, Inflation.png" width="100%" height="100%" title="Economic Performance"/>
+![image](/assets/images/GDP, Unemploy, Inflation.png)
 
 <br>
 
@@ -51,7 +51,7 @@ use_math: True
 
 <div style="border:1px dashed; padding:10px">
 <br>
-<span style="color:blue">이 상자 안 내용은 2006년 6월 국회예산정책처에서 발간된 《미국의 재정개혁 논의동향과 시사점(정문종)》을 참고하였다.</span>
+<span style="color:blue">이 상자 안 내용은 2006년 6월 국회예산정책처에서 발간한 《미국의 재정개혁 논의동향과 시사점(정문종)》을 참고하였다.</span>
 <br>
 <br>
 &nbsp;1980년대, 특히 레이건 행정부 시기에 심각한 재정적자에 시달리자 미국 의회는 이에 대처하기 위해 「1985년 예산균형 및 긴급적자통제법」, 즉 일반적으로 Gramm-Rudman-Hollings(GRH)법으로 불리는 법률을 제정했다. 이 법은 1986년부터 1990년까지 매년 적자를 축소시켜 1991년에는 균형재정이 되도록 요구하고 있었다.
@@ -75,6 +75,7 @@ use_math: True
 &nbsp;이와 같이 예산집행법이 성공을 거둔 이유는 기본적으로 재량지출의 상한선과 PAYGO 절차를 준수하려는 정부와 의회의 합의에서 찾을 수 있을 것이다. 예산집행법이 성공을 거둘 수 있었던 다른 요인으로는 냉전이 종식되면서 국방 지출을 감소시키고 이것을 다른 재량지출로 전환시킬 수 있었다는 점과 1990년대 후반 경제성장률이 4%를 상회하는 유례없는 경기 호황으로 재정 수입이 증가하여 재정적자가 예상보다 작게 발생하였다는 점을 들 수 있다.
 <br><br>
 </div>
+
 
 <br>
 
@@ -204,9 +205,9 @@ use_math: True
 
 <b>[그림] The Federal Funds Rate and CPI Inflation</b>
 
-<img src="/assets/images/FFR, CPI.png" width="100%" height="100%" title="The Federal Fnds Rate and CPI Inflation"/>
+![image](/assets/images/FFR, CPI.png)
 
-<span style="color:blue">2000년 이전에 연준의 기준금리는 소비자물가의 전년비 상승률보다 높은 것이 일반적이었다. </span>
+<span style="color:blue">2000년 이전에 연준의 기준금리는 소비자물가의 전년비 상승률보다 높은 것이 일반적이었다. 흔히 말하는 실질 기준금리가 양수였다.</span>
 
 <br>
 
@@ -216,7 +217,7 @@ use_math: True
 
 ### Chapter 5. The Fed Engineers a Soft Landing, 1994-96
 
-1993년-94년 겨울 경제는 이년 이상 강하게 성장하였고 실업률이 6.5% 수준까지 내려옴에 따라 연준은 실질 기준 금리를 0%p 이상으로 인상하는 방안을 고민하였다. 이는 매우 완화적인 통화정책 스탠스였다. 아직 인플레이션이 상승하지 않았지만 "선제적 인상"을 해야한다는 의견이 많았다.
+1993년-94년 겨울 경제는 강하게 성장하였고 실업률이 6.5% 수준까지 내려옴에 따라 연준은 실질 기준 금리를 0%p 이상으로 인상하는 방안을 고민하였다. 이는 매우 완화적인 통화정책 스탠스였다. 아직 인플레이션이 상승하지 않았지만 "선제적 인상"을 해야한다는 의견이 많았다.
 
 사실, 금리가 1994년 2월 FOMC 회의에서 인상될 것이라는 것은 예견된 결론이었고, 그린스펀은 위원회가 금리를 더욱 인상하지 못하도록 억제하기 위해 이례적으로 세게 압박해야 했다. 그린스펀은 연방기금금리를 25bp 인상하는 방안을 제안함으로써 정상적인 정책 원탁회의를 열었다. "우리가 50bp를 오늘 인상하면 시장이 붕괴될 가능성이 높습니다. "
 
@@ -228,7 +229,7 @@ use_math: True
 
 <b>[그림] The Federal Funds Target Rate, 1994~2000</b>
 
-<img src="/assets/images/Federal Funds Target Rate.png" width="100%" height="100%" title="Federal Funds Target Rate"/>
+![image](/assets/images/Federal Funds Target Rate.png)
 
 연준의 기준 금리 사이클은 1995년 1월 31일부터 2월 1일까지 진행된 FOMC 미팅에서 50bp 인상으로 마무리 되었다. 이 당시 경제는 둔화되는 조짐이 나타나기 시작했다. 미국 수출은 멕시코 금융 위기([Mexican peso crisis](https://en.wikipedia.org/wiki/Mexican_peso_crisis))의 여파로 쇠퇴하기 시작했다. 경착륙 우려가 증가하였으나 금융 시장은 여전히 더 긴축을 요구하고 있었다. 그린스펀은 "우리가 보아온 이 균열이 계속 된다면 또 다른 긴축 정책이 있을 것이라는 것은 결코 분명하지 않다"고 지적했다.
 
@@ -246,7 +247,7 @@ use_math: True
 
 <b>[그림] NAIRU, Unemployment Rate and Federal Funds Rates</b>
 
-<img src="/assets/images/NAIRU, Unemployment Rate.png" width="100%" height="100%" title="NAIRU, Unemployment Rate"/>
+![image](/assets/images/NAIRU, Unemployment Rate.png)
 
 실질 GDP 성장률의 평균은 1996년부터 1999년까지 평균 4.5% 성장했으며, 이는 잠재성장률을 상회하는 수준이었다. 그러나 해당 기간에 인플레이션이 부재했기 때문에 기준금리를 인상하지 않을 수 있었다.
 
@@ -256,7 +257,7 @@ use_math: True
 
 <b>[그림] Unemployment and the Change in CPI Inflation, 1960-99</b>
 
-<img src="/assets/images/REGRESSION_Unemployment rate, CPI.png" width="100%" height="100%" title="Regression: Unemployment Rate & CPI Inflation, Unemployment Rate"/>
+![image](/assets/images/REGRESSION_Unemployment rate, CPI.png)
 
 1997년과 1998년에는 실업률과 비교해 유난히 물가가 낮았다. 
 
@@ -274,7 +275,7 @@ use_math: True
 
 <b>[그림] Changes in Wages and Salaries and Benefits in the Employment Cost Index</b>
 
-<img src="/assets/images/Compensation of employees.png" width="100%" height="100%" title="Compensation of employees"/>
+![image](/assets/images/Compensation of employees.png)
 
 <br>
 
@@ -284,11 +285,11 @@ use_math: True
 
 <b>The Dollar and Import Prices</b>
 
-1995년부터 시작된 강달러가 수입물가를 낮추는데 기여했다. 수입물품들은 소비자물가(CPI)의 항목이며, 직접적인 물가 하락 요인이 된다. <span style="color:blue">2021년 부터 미 달러가 강세를 보임에도 수입 물가 하락은 나타나지 않고 있다. </span>
+1995년부터 시작된 강달러가 수입물가를 낮추는데 기여했다. 수입물품들은 소비자물가(CPI)의 항목이며, 직접적인 물가 하락 요인이 된다. <span style="color:blue"> 반면, 2021년 부터 미 달러가 강세를 보임에도 미국의 수입 물가 하락은 나타나지 않고 있다. </span>
 
 <b>[그림] Nonoil Import Prices and the Dollar</b>
 
-<img src="/assets/images/Non-Oil Import Prices and the Dollar.png" width="100%" height="100%" title="Non-Oil Import Prices and the Dollar"/>
+![image](/assets/images/Non-Oil Import Prices and the Dollar.png)
 
 소비자물가 구성의 10~12%가 수입 물품이었으며, 1995년 2분기부터 1998년 말까지 진행된 미국 달러의 18% 강세는 동기간 소비자 물가 수준을 2% 낮추었다.
 
@@ -300,7 +301,7 @@ use_math: True
 
 <b>[그림] Daily Price of West Texas Intermediate(WTI) Oil</b>
 
-<img src="/assets/images/WTI.png" width="100%" height="100%" title="WTI"/>
+![image](/assets/images/WTI.png)
 
 <br>
 
@@ -312,7 +313,7 @@ use_math: True
 
 #### The Role of Demand Shocks in the Good Luck Period
 
-1996~98년 기간 동안 예상치 못한 수요 강세는, 수요를 부추겼고 저축률을 낮춘 지속적으로 상승한 주식 시장에서 비롯되었다. 따라서 주식시장은 연준을 사로잡는 주제였다. 그 당시 Robert Shiller와 John Campbell 과 같은 주식 경제 학자와 월스트리스트 애널리스트들과 미팅이 있었다. 한달 뒤 그린스펀은 연설에서 다음과 같이 말했다. 
+1996~98년 기간 동안 예상치 못한 수요 강세는, 수요를 부추겼고 저축률을 낮춘 지속적으로 상승한 주식 시장에서 비롯되었다. 따라서 주식시장은 연준을 사로잡는 주제였다. 그 당시 Robert Shiller와 John Campbell 과 같은 주식 경제 학자와 월스트리스트 애널리스트들과 미팅이 있었다. 한 달 뒤 그린스펀은 연설에서 다음과 같이 말했다. 
 
 "하지만 비이성적 과열이 자산 가치를 과도하게 상승시켜 예상치 못한 장기 불황의 대상이 될 시점을 어떻게 알 수 있습니까? 그리고 그 평가를 통화정책이 어떻게 반영하나요?" 
 
@@ -347,13 +348,13 @@ use_math: True
 
 <b>[그림] Four-Year Average Growth of Productivity in Nonfarm Business</b>
 
-<img src="/assets/images/Nonfarm Productivity.png" width="100%" height="100%" title="Nonfarm Productivity"/>
+![image](/assets/images/Nonfarm Productivity.png)
 
-컴퓨터와 소프트웨어 가격 하락은 투자 증가와 컴퓨터 사용 증가로 이어졌다.
+컴퓨터와 소프트웨어 가격 하락은 투자 증가와 컴퓨터 사용 증가를 가속시켰다.
 
 <b>[그림] Changes in Computer Prices</b>
 
-<img src="/assets/images/Computer Price.png" width="100%" height="100%" title="Changes in Computer Prices"/>
+![image](/assets/images/Computer Price.png)
 
 1990년대 후반 생산성 증가의 결과 낮은 실업률에도 물가가 안정된 수준을 유지할 수 있었던 것이다.
 
