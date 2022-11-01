@@ -15,7 +15,7 @@ use_math: True
 
 ### "We Will See the Return of Capital Investment on a Massive Scale"
 
-시장 전략가이자 역사가인 러셀 내피어는 <span style="color:blue">향후 15-20년간 진행될 구조적 인플레이션 상승과 [금융억압(financial repression)](https://news.einfomax.co.kr/news/articleView.html?idxno=17865)을 경고</span>합니다. 이 새로운 세계를 맞이하여 투자자들이 무엇을 준비해야하는지 그의 생각을 알아봅니다. (2022년 1월 14일)
+시장 전략가이자 역사가인 러셀 내피어는 <span style="color:blue">향후 15-20년간 진행될 구조적 인플레이션 상승과 [금융억압(financial repression)](https://news.einfomax.co.kr/news/articleView.html?idxno=17865)을 경고</span>합니다. 이 새로운 세계를 맞이하여 투자자들이 무엇을 준비해야하는지 그의 생각을 알아봅니다. (2022년 10월 14일)
 
 ***
 
