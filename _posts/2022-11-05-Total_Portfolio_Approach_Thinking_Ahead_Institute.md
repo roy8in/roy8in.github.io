@@ -21,9 +21,11 @@ Willis Towers Watson(WTW)의 Tim Unger는 세상이 점점 복잡해짐에 따�
 
 종합 포트폴리오 접근법(TPA)를 도입하기에는 몇 가지 장애물이 존재한다. 먼저, 이사회는 투자 의사 결정을 내부 운용 조직에게 위임하는 것을 꺼려한다. 또한 각자의 mandate로 움직이던 세부 운용 조직을 하나의 단일 조직(Single Unit)처럼 움직이도록 협동을 강조하는 것도 어려운 일이다. 현실적으로 이것은 많은 시간을 요구하고 강력한 리더십이 뒷받침되어야 한다. CIO 등 강력한 리더가 조직의 변화를 이끌어 내고, 이전과는 다른 접근법을 추구하는 것이 상당한 이점이 있다는 강력한 믿음이 필요하다.
 
-TPA를 제대로 하기 위해서는 투자 모델 등 기술적인 부분 보다는 운용의 지배구조 및 문화적인 어려움 등을 해결하는 것이 더욱 중요하다.
+![image](\assets\images\SAA vs TPA.png)
 
-모든 자산군의 전체 포트폴리오를 하나의 데이터 소스로부터 확인하고 관리하는 등 IT, 기술, 데이터 관리 능력 등은 TPA를 실행하고 지속 관리 하는 데 중요하다.
+모든 자산군의 전체 포트폴리오를 하나의 데이터 소스로부터 확인하고 관리하는 등 IT, 기술, 데이터 관리 능력 또한 TPA를 실행하고 지속 관리 하는 데 중요하다.
+
+TPA를 제대로 하기 위해서는 투자 모델 등 기술적인 부분 보다는 운용의 지배구조 및 문화적인 어려움 등을 해결하는 것이 더욱 중요하다.
 
 <br><br>
 
@@ -31,9 +33,9 @@ TPA를 제대로 하기 위해서는 투자 모델 등 기술적인 부분 보�
 
 WTW가 18개 펀드를 대상으로 진행한 설문조사에 따르면, 약 절반의 펀드가 TPA를 통해 유사한 SAA보다 적어도 매년 50bp에서 100bp는 초과 성과를 달성해야 한다고 응답했다. 어떤 펀드는 매년 150bp 이상의 초과성과를 달성할수 있다고 믿었는데, 이 펀드의 경우 레버리지를 사용했다.
 
-<b>[그림] How much better/worse (in annual return terms) do you think a TPA approach is over an SAA-based approach?</b>
+![image](\assets\images\TPA over SAA.png)
 
-<br><br>
+<br>
 
 TPA 도입의 대표적인 장점은 아래와 같다.
 
@@ -51,4 +53,8 @@ TPA를 잘 도입한 기관의 특징은 전문적인(skilled) 내부의 자본�
 
 연구에 참여한 펀드 대부분은 포트폴리오 구축 방법의 변화를 시도하고 있으나 TPA로 전환이 빠르게 진행되지는 못한다고 답변했다. 이는 기금의 지배구조 문제와 공동의 협력 문화를 구축하는 것이 어렵기 때문이다.
 
-<b>[그림] How would you describe your fund's high-level approach to portfolio construction?</b>
+![image](\assets\images\High level approach.png)
+
+***
+
+자료: [Thinking Ahead - Total Portfolio Approach(2020)](https://www.thinkingaheadinstitute.org/content/uploads/2020/11/Total_Portfolio_Approach-1.pdf)

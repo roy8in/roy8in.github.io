@@ -13,50 +13,49 @@ use_math: True
 
 ***
 
-<br>
-
 시가평가 데이터가 부재한 관계로 대체투자는 낮은 변동성과 전통자산과의 훌륭한 분산효과를 제공한다는 오해를 줄 수 있다. 이는 사모 자산의 수익률 지수가 인위적으로 평탄화(smoothed) 되기 때문이다. 페이퍼에서 소개한 Smoothed된 수익률을 Unsmoothing 하는 방법을 정리한다.
 
 <br>
 
 한 자산의 수익률은 리스크 팩터 수익률의 선형 결합(linear combination)으로 표현할 수 있다고 가정한다.
 
-$\begin{equation}r_t = \alpha+\sum\limits_{i=1}^{N} \beta_i f_{i, t}+\epsilon_t\end{equation}$
-
+$$
+\begin{equation}r_t = \alpha+\sum\limits_{i=1}^{N} \beta_i f_{i, t}+\epsilon_t\end{equation}
+$$
 여기서
 
-​	$r_t$: 자산의 수익률
+&emsp;$r_t$: 자산의 수익률
 
-​	$\alpha$: 상수
+&emsp;$\alpha$: 상수
 
-​	$\beta_i$: 자산의 $i$번째 팩터에 대한 노출도
+&emsp;$\beta_i$: 자산의 $i$번째 팩터에 대한 노출도
 
-​	$f_i$: $i$번째 팩터의 수익률
+&emsp;$f_i$: $i$번째 팩터의 수익률
 
-​	$\epsilon_t$: 오차항
+&emsp;$\epsilon_t$: 오차항
 
 이다. 개별 대체자산의 관측된 smoothed 수익률은 관측되지 않은 최근 실제 수익률들의 가중평균이라고 가정한다. 즉,
-
-$\begin{equation}r_{obs,t} = \sum\limits_{j=0}^Q w_j r_{t-j}\end{equation}$
-
+$$
+\begin{equation}r_{obs,t} = \sum\limits_{j=0}^Q w_j r_{t-j}\end{equation}
+$$
 여기서
 
-​	$r_{obs, j}$: 관측된 지수 수익률
+&emsp;$r_{obs, j}$: 관측된 지수 수익률
 
-​	$Q$: lag 수
+&emsp;$Q$: lag 수
 
-​	$r_t$: 관측되지 않는 실제 수익률
+&emsp;$r_t$: 관측되지 않는 실제 수익률
 
-​	$w_j$: 과거의 관측되지 않는 실제 투자 성과가 현재 관측된, smoothed 수익률에 영향을 미치는 정도
+&emsp;$w_j$: 과거의 관측되지 않는 실제 투자 성과가 현재 관측된, smoothed 수익률에 영향을 미치는 정도
 
 이다. 즉, 이 모델은 관측된 수익률 $r_{obs}$이 과거의 투자 수익률 $r$의 이동평균이라고 가정하는 것이다. 
 
 <br>
 
 식 (1)을 활용해 식 (2)를 다시 표현하면
-
-$\begin{equation}\begin{split}r_{obs,t} &= \sum\limits_{j=0}^Q w_j r_{t-j} \\&=  \sum\limits _{j=0}^Q w_j \left(\alpha + \sum\limits_{i=1}^N \beta_i f_{i, t-j} +\epsilon_{t-j}\right) \\&= \alpha \sum\limits_{j=0}^Q w_j  + \sum\limits_{i=1} ^N \beta_i \sum\limits_{j=0} ^Q w_j f_{i, t-j} + \sum\limits _{j=0} ^Q w_j \epsilon_{t-j}\end{split}\end{equation}$
-
+$$
+\begin{equation}\begin{split} r_{obs,t} &= \sum\limits_{j=0}^Q w_j r_{t-j} \\&=  \sum\limits _{j=0}^Q w_j \left( \alpha + \sum\limits_{i=1}^N \beta_i f_{i, t-j} +\epsilon_{t-j} \right) \\&= \alpha \sum\limits_{j=0}^Q w_j  + \sum\limits_{i=1} ^N \beta_i \sum\limits_{j=0} ^Q w_j f_{i, t-j} + \sum\limits _{j=0} ^Q w_j \epsilon_{t-j}\end{split}\end{equation}
+$$
 이며, 여기서 $N$은 리스크 팩터의 개수이다. 
 
 - $\sum\limits_{j=0}^Q w_{j} =1$이라 가정하고
@@ -65,11 +64,11 @@ $\begin{equation}\begin{split}r_{obs,t} &= \sum\limits_{j=0}^Q w_j r_{t-j} \\&= 
 
 - $\eta_t:= \sum\limits_{j=0}^Q w_{j} \epsilon_{t-j}$를 오차항의 이동평균 오차항
 
-이라고 표기하면 식 (2)는 다음과 같이 쓸 수 있다.
-
-$\begin{equation}r_{obs,t}= \alpha + \sum\limits_{i=1}^N \beta_i X_{i, t} + \eta_t\end{equation}$
-
-즉, 관측된 대체자산의 수익률을 팩터 수익률의 이동평균 수익률 $\left\{ X_{i, t}\right\}_{i=1}^N$의 조합으로 표현하는 것이다. 
+이라고 표기하면 식 (1)과 식 (3)은 다음과 같이 쓸 수 있다.
+$$
+r_{obs,t}= \alpha + \sum\limits_{i=1}^N \beta_i X_{i, t} + \eta_t
+$$
+즉, 관측된 대체자산의 수익률을 팩터 수익률의 이동평균 수익률 $ \left\\{ X_{i, t} \right\\}_{i=1}^N $의 조합으로 표현하는 것이다. 
 
 <br>
 
@@ -104,6 +103,8 @@ $\begin{equation}r_{obs,t}= \alpha + \sum\limits_{i=1}^N \beta_i X_{i, t} + \eta
 |      Government bonds       |   Bloomberg Barclays US Government Bond Index    |           15%           |      1       |          1%           |
 
 <br>
+
+***
 
 자료: Niels Pedersen, Sebastien Page, Fei He - Asset Allocation: Risk Models for Alternative Investments (2014)
 
