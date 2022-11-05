@@ -16,9 +16,9 @@ Andrew Ang at el. 의 《Review of the Active Management of the Norwegian Govern
 <br>
 
 $X_t$가 $AR(1)$ 프로세스, 즉
-
-$$ \begin{equation} X_t = c + \phi X_{t-1} + \epsilon_t \end{equation}$$
-
+$$
+X_t = c + \phi X_{t-1} + \epsilon_t
+$$
 
 라고 가정하자. 여기서 $c$는 상수, $\epsilon_t \sim N(0, \sigma_{\epsilon}^2)$를 따르는 노이즈이다. 모든 $t$에 대해서 $E[X_t]=\mu$(상수)라고 가정하면
 
