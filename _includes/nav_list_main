@@ -4,58 +4,114 @@
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
-      <li>
-        <span class="nav__sub-title">Quantitative</span>
+        <!--span 태그로 카테고리들을 크게 분류 -->
+        <span class="nav__sub-title">Financial History</span>
+
+            <!--ul 태그로 같은 카테고리들을 모아둔 페이지를 나열 -->
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Quant" %}
-                        <li><a href="/categories/Quant" class="">Quant ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Information_Theory" %}
-                        <li><a href="/categories/Information_Theory" class="">Information Theory ({{category[1].size}})</a></li>
+                    {% if category[0] == "-500" %}
+                        <li><a href="/categories/-500" class="">고대 세계 (~500) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Finance</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Monetary_System" %}
-                        <li><a href="/categories/Monetary_System" class="">Monetary System ({{category[1].size}})</a></li>
+                    {% if category[0] == "500-1500" %}
+                        <li><a href="/categories/500-1500" class="">중세 시대 (500~1500) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Financial_History" %}
-                        <li><a href="/categories/Financial_History" class="">Financial History ({{category[1].size}})</a></li>
+                    {% if category[0] == "1500-1800" %}
+                        <li><a href="/categories/1500-1800" class="">근세 (1500~1800) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Geopolitics" %}
-                        <li><a href="/categories/Geopolitics" class="">Geopolitics ({{category[1].size}})</a></li>
+                    {% if category[0] == "1800-1870" %}
+                        <li><a href="/categories/1800-1870" class="">19세기 중반 (1800~1870) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Investment" %}
-                        <li><a href="/categories/Investment" class="">Investment ({{category[1].size}})</a></li>
+                    {% if category[0] == "1870-1914" %}
+                        <li><a href="/categories/1870-1914" class="">제2차 산업혁명과 제국주의 시대 (1870~1914) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Portfolio" %}
-                        <li><a href="/categories/Portfolio" class="">Portfolio ({{category[1].size}})</a></li>
+                    {% if category[0] == "1914-1939" %}
+                        <li><a href="/categories/1914-1939" class="">제1차 세계 대전과 대공황 (1914~1939) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "1939-1945" %}
+                        <li><a href="/categories/1939-1945" class="">제2차 세계 대전 (1939~1945) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "1945-1960" %}
+                        <li><a href="/categories/1945-1960" class="">냉전 초기와 경제 재건 (1945~1960) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "1960-1980" %}
+                        <li><a href="/categories/1960-1980" class="">냉전 중기와 경제 성장 (1960~1980) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "1980-2000" %}
+                        <li><a href="/categories/1980-2000" class="">신자유주의와 세계화의 시작 (1980~2000) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "2000-2010" %}
+                        <li><a href="/categories/2000-2010" class="">디지털 시대와 글로벌 금융위기 (2000~2010) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "2010-2020" %}
+                        <li><a href="/categories/2010-2020" class="">포스트 금융위기 (2010~2020) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "2020-" %}
+                        <li><a href="/categories/2020-" class="">코로나19 팬데믹 이후 (2020~) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
   </ul>
 </nav>
