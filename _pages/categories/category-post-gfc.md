@@ -1,11 +1,11 @@
 ---
-title: "냉전 초기와 경제 재건 (1945~1960)"
+title: "포스트 금융 위기 (2010~2020)"
 layout: archive
-permalink: categories/1945-1960
+permalink: categories/post-gfc
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.1945-1960 %}
+{% assign posts = site.categories.post-gfc %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
