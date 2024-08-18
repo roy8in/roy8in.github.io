@@ -10,7 +10,7 @@
             <!--ul 태그로 같은 카테고리들을 모아둔 페이지를 나열 -->
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ancient" %}
+                    {% if category[0] == "-500" %}
                         <li><a href="/categories/-500" class="">고대 세계 (~500) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -109,6 +109,18 @@
                 {% for category in site.categories %}
                     {% if category[0] == "2020-" %}
                         <li><a href="/categories/2020-" class="">코로나19 팬데믹 이후 (2020~) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            
+        <span class="nav__sub-title">QUANTITATIVE</span>
+        <li>
+            <!--ul 태그로 같은 카테고리들을 모아둔 페이지를 나열 -->
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Arithmetic" %}
+                        <li><a href="/categories/Quant" class="">Arithmetic ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
