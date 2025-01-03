@@ -1,7 +1,7 @@
 ---
 title: "신자유주의와 세계화의 시작 (1980~2000)"
 layout: archive
-permalink: categories/noeliberalism
+permalink: categories/neoliberalism
 author_profile: true
 sidebar_main: true
 ---
