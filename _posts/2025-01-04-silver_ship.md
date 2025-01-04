@@ -1,5 +1,5 @@
 ---
-title: 최초의 기술주 거품: 수중탐사 회사
+title: 최초의 기술주 거품, 수중탐사 회사
 date: 2025-01-04
 categories: 
 - early-modern
