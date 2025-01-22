@@ -38,10 +38,8 @@ use_math: True
 선물 Roll-over는 최초통보일과 최종거래일 중 빠른 날을 기준으로 2거래일 전에 거래를 종료하는 것이 일반적이다.
 그렇게 함으로써 아웃 거래나 오류가 있는 경우 거래자는 FND 이전에 문제를 해결할 수 있다.
 
-
 Futures Return = Spot Return + Excess Benefit or Cost of Owning the Underlying Asset
-으로 표현할 수 있다. [^1]
-[^1]: Deconstructing Futures Returns: The Role of Roll Yield, Campbell White Paper Series (February 2014) 참고
+으로 표현[^1]할 수 있다. 
 
 Roll Yield는 선물 수익률과 현물 수익률의 차이로 정의한다.
 Roll Yield = Futures Returns - Spot Returns
@@ -61,5 +59,7 @@ Roll 시점 선물의 기간 구조(term structure)는 Roll Yield와 관련이 �
 Contango[^2]의 경우 Roll로 인한 비용이 발생하게 되고(Roll Adjustment < 0)
 Backwardation[^3]의 경우 Roll로 인한 수익이 발생하게 된다(Roll Adjustment > 0).
 
+
+[^1]: Deconstructing Futures Returns: The Role of Roll Yield, Campbell White Paper Series (February 2014)
 [^2]: Continuation에서 유래. 거래를 연장하거나 다음으로 이어가는 것
 [^3]: Backward에서 유래. 가격이 현재보다 뒤로(낮게) 이동하는 현상
