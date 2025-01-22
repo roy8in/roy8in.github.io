@@ -40,7 +40,7 @@ use_math: True
 
 
 Futures Return = Spot Return + Excess Benefit or Cost of Owning the Underlying Asset
-으로 표현할 수 있다.[^1]
+으로 표현할 수 있다. [^1]
 [^1]: Deconstructing Futures Returns: The Role of Roll Yield, Campbell White Paper Series (February 2014) 참고
 
 Roll Yield는 선물 수익률과 현물 수익률의 차이로 정의한다.
@@ -48,8 +48,9 @@ Roll Yield = Futures Returns - Spot Returns
 즉, Roll Yield는 기초자산을 보유함으로써 생기는 초과 이익 혹은 비용이다. S&P500의 경우 Roll Yield는 배당수익률(이익)과 조달 비용(Financing Costs, 비용)이라고 생각할 수 있다.
 
 주요 자산군의 효용과 비용을 정리하면 아래와 같다.
+
 |자산군|효용|비용|
-|----|----|-----|
+|------|----|----|
 |채권|쿠폰|조달 비용|
 |외환|해외 예금 금리|국내 예금 금리|
 |주식|배당|조달 비용|
