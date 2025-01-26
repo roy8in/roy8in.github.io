@@ -35,8 +35,20 @@ use_math: True
 실물을 인도하는 WTI 선물(CL)의 경우 최초통보일(FND)이 최종거래일(LTD)보다 느리다.
 실물을 인도하지 않는 S&P500 e-mini 선물(ES)같은 경우 최초통보일(FND), 최종거래일(LTD), First Delivery Date, Last Delivery Date가 모두 같다.
 
-선물 Roll-over는 최초통보일과 최종거래일 중 빠른 날을 기준으로 2거래일 전에 거래를 종료하는 것이 일반적이다.
+선물 Roll-over는 최초통보일(FND)과 최종거래일(LTD) 중 빠른 날을 기준으로 2거래일 전에 거래를 종료하는 것이 일반적이다.
 그렇게 함으로써 아웃 거래나 오류가 있는 경우 거래자는 FND 이전에 문제를 해결할 수 있다.
+
+실제로 TYZ4와 TYH5의 미결제약정(Open Interst)과 거래량(Volume)추이를 보면 아래와 같다.
+
+<img src="https://github.com/roy8in/roy8in.github.io/blob/main/assets/images/TYZ4,%20TYH5%20OI,%20VOLUME.png?raw=true" style="zoom:100%;" />
+
+(위) TYZ4의 LTD는 2024년 12월 19일이었는데, 해당 선물의 미결제약정이 감소하기 시작하는 시점은 약 1개월 전인 2024년 11월 19일이다. LTD보다 중요한 FND는 2024년 11월 29일인데 이보다 약 1주일 이상 빠른 시점부터 Rollover가 시작된다. FND 1주일 전인 2024년 11월 22일경에는 TYZ4와 TYH5의 미결제약정의 역전이 발생한다. 
+
+(아래) Volume 추이를 보면 TYZ4의 FND시점 이후에는 TYZ4의 거래량이 의미 없는 수준까지 하락함도 알 수 있다.
+
+
+
+**Roll Yield 관련**
 
 Futures Return = Spot Return + Excess Benefit or Cost of Owning the Underlying Asset
 으로 표현[^1]할 수 있다. 
