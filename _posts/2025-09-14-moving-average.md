@@ -1,8 +1,7 @@
 ---
 title: Moving Average
 date: 2025-09-14
-categories: 
-- arithmetic
+categories: [arithmetic]
 tags: [MA]
 comments: True
 use_math: True
