@@ -1,23 +1,29 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-      TeX: {
-        equationNumbers: {
-          autoNumber: "AMS"
-        }
-      },
-      tex2jax: {
-      inlineMath: [ ['$', '$'] ],
-      displayMath: [ ['$$', '$$'], ["\\(", "\\)"] ],
+<!-- MathJax v3 configuration -->
+<script>
+  window.MathJax = {
+    tex: {
+      // 인라인/블록 수식 구분자
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+
+      // AMS 넘버링
+      tags: 'ams',              // 'ams' = 자동 넘버링(align, equation 등)
+      tagSide: 'right',         // 번호 위치(옵션)
+      tagIndent: '0.8em',       // 들여쓰기(옵션)
+
       processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      // 코드블록 등은 렌더링 제외
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code'],
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process'
+    },
+    loader: {
+      load: ['[tex]/ams']       // AMS 패키지
     }
-  });
-  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
-      alert("Math Processing Error: "+message[1]);
-    });
-  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
-      alert("Math Processing Error: "+message[1]);
-    });
+  };
 </script>
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
