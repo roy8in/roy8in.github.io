@@ -8,17 +8,17 @@ layout: nil
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Primer 기본 CSS (jekyll-theme-primer가 제공) -->
+    <!-- Primer CSS -->
     <link rel="stylesheet"
           href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <!-- ===== MathJax v3 (항상 로드) ===== -->
+    <!-- MathJax v3: always load -->
     <script>
       window.MathJax = {
         tex: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
           displayMath: [['$$','$$'], ['\\[','\\]']],
-          tags: 'ams',                 // 자동 넘버링(AMS)
+          tags: 'ams',
           processEscapes: true,
           processEnvironments: true
         },
@@ -30,8 +30,8 @@ layout: nil
     </script>
     <script id="MathJax-script" async
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-    <!-- 디버그용 마커: 아래 주석이 보이면 이 레이아웃이 적용된 것 -->
-    <!-- USING PRIMER DEFAULT LAYOUT WITH MATHJAX V3 -->
+
+    <!-- DEBUG_MARK: USING PRIMER DEFAULT LAYOUT WITH MATHJAX V3 -->
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
