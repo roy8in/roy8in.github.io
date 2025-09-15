@@ -1,48 +1,35 @@
----
-layout: nil
----
-<!doctype html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    {%- seo -%}
-    
     {% include head.html %}
     {% include head/custom.html %}
     {% if page.use_math %}
       {% include mathjax_support.html %}
     {% endif %}
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Primer CSS -->
-    <link rel="stylesheet"
-          href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-    <!-- MathJax v3: always load -->
-    <script>
-      window.MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$','$$'], ['\\[','\\]']],
-          tags: 'ams',
-          processEscapes: true,
-          processEnvironments: true
-        },
-        options: {
-          skipHtmlTags: ['script','noscript','style','textarea','pre','code']
-        },
-        loader: { load: ['[tex]/ams'] }
-      };
-    </script>
-    <script id="MathJax-script" async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
-    <!-- DEBUG_MARK: USING PRIMER DEFAULT LAYOUT WITH MATHJAX V3 -->
   </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div class="initial-content">
       {{ content }}
     </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
   </body>
 </html>
