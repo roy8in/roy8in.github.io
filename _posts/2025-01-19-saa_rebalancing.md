@@ -14,5 +14,5 @@ Inline: $SMA(k)_{t}$
 Block:
 
 $$
-SMA_t^{(k)} = \frac{1}{k}\sum_{i=0}^{k-1} P_{t-i} 
+SMA_t^{(k)} = \sum_{i=0}^{k-1} P_{t-i} 
 $$
