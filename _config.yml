@@ -162,17 +162,17 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+ # Markdown Processing
+ kramdown:
+   input: GFM
+   hard_wrap: false
+   auto_ids: true
+   footnote_nr: 1
+   entity_output: as_char
+   toc_levels: 1..6
+   smart_quotes: lsquo,rsquo,ldquo,rdquo
+   enable_coderay: false
+   math_engine: mathjax
 
 
 # Sass/SCSS
@@ -188,13 +188,14 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+ # Plugins (previously gems:)
+ plugins:
+   - jekyll-remote-theme
+   - jekyll-include-cache
+   - jekyll-feed
+   - jekyll-sitemap
+   - jekyll-seo-tag
+   - jekyll-paginate
 
 # mimic GitHub Pages with --safe
 whitelist:   # (GitHub Pages --safe 모드 대응)
@@ -234,6 +235,7 @@ defaults:
     values:
       layout: single
       use_math: true
+      math: true
       author_profile: true
       read_time: true
       comments: true
