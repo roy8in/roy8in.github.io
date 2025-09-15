@@ -1,12 +1,18 @@
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<!doctype html>
+<html lang="{{ site.locale | slice: 0, 2 | default: 'en' }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    {% if page.math %}
-      {% include mathjax.html %}
-    {% endif %}
-    {% if page.use_math %}
-      {% include mathjax_support.html %}
+
+    {%- comment -%}
+      MathJax: Minimal Mistakes의 math include 이름 변화/유무와 무관하게
+      page.math:true 일 때만 CDN 스크립트를 주입한다.
+      (_config.yml 의 defaults > values 에 math:true 설정되어 있으면 자동 활성)
+    {%- endcomment -%}
+    {% if page.math or layout.math %}
+      <script defer id="MathJax-script"
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
     {% endif %}
   </head>
 
@@ -33,6 +39,5 @@
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>
