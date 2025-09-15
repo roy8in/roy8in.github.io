@@ -162,8 +162,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
- # Markdown Processing
- kramdown:
+# Markdown Processing
+kramdown:
    input: GFM
    hard_wrap: false
    auto_ids: true
@@ -188,8 +188,8 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
- # Plugins (previously gems:)
- plugins:
+# Plugins (previously gems:)
+plugins:
    - jekyll-remote-theme
    - jekyll-include-cache
    - jekyll-feed
