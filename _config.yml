@@ -259,8 +259,11 @@ compress_html:
 
 
 # Defaults
+# _config.yml (일부抜粋)
 defaults:
-  - scope: { path: "", type: posts }
+  - scope:
+      path: ""
+      type: posts
     values:
       layout: single
       use_math: true
@@ -269,4 +272,3 @@ defaults:
       comments: true
       share: true
       related: true
-      sidebar_main: true
