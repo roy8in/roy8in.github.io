@@ -2,6 +2,9 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% if page.math %}
+      {% include mathjax.html %}
+    {% endif %}
     {% if page.use_math %}
       {% include mathjax_support.html %}
     {% endif %}
