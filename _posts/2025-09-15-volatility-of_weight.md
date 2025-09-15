@@ -20,10 +20,13 @@ $t$ 시점에서 자산군 $j$의 평가금액을 $NAV_t^j$라고 하고, $t$시
 $$
 \omega_t^j := \frac{NAV_{t}^j}{\sum_{i} NAV_{t}^i}
 $$
+
 라고 할 수 있다. 앞으로 편의상 Portfolio의 P를 따와 
+
 $$
 NAV_{t}^{P} \equiv \sum_{i} NAV_{t}^{i}
 $$
+
 라고 쓴다.
 
 
@@ -34,6 +37,7 @@ $$
 $$
 NAV_{t}^{i} = NAV_{0}^{i} e^{(\mu_i - \sigma_{i}^2/2)t+\sigma_{i} W_{t}^i},
 $$
+
 여기서 $W_{t}^{i}$는 Winer process이고, $\mu$는 drift term(평균), $\sigma$는 변동성(표준편차)를 의미한다. 
 
 
@@ -46,6 +50,7 @@ $$
 $$
 \frac{NAV_{t}^{i}}{NAV_{t-1}^{i}} = e^{(\mu_i - \sigma_i^2 /2) + \sigma_i (W_{t}^{i} - W_{t-1}^{i})} = e^{(\mu_i - \sigma_i^2 /2) + \sigma_i \xi_{t}^{i}}
 $$
+
 임을 알 수 있다. 여기서 $\xi_t^{i}:= W_{t}^{i} - W_{t-1}^{i} \sim \mathcal{N}(0,~1)$이다.
 
 
@@ -56,6 +61,7 @@ $$
 $$
 \triangle \omega_{t}^{j} := \omega_t^{j} - \omega_{t-1}^{j}
 $$
+
 로 쓰기로 한다. 
 
 
@@ -67,6 +73,7 @@ log(\omega_{t}^{j})-log(\omega_{t-1}^{j})
 &= (\mu_{j} - \mu_{p}) - (\sigma_{j}^2 - \sigma_{p}^2)/2 + (\sigma_{j} \xi_t^{j} - \sigma_p \xi_t^p)
 \end{aligned}
 $$
+
 이고,
 
 
@@ -78,18 +85,18 @@ log(\omega_{t}^{j})-log(\omega_{t-1}^{j})
 & \approx \frac{\triangle \omega_{t}^{j}}{\omega_{t-1}^{j}}
 \end{aligned}
 $$
-이므로
 
+이므로
 
 $$
 \begin{aligned}
 \triangle \omega_{t}^{j}
-&\approx \omega_{t-1}^{j} \left\{ (\mu_{j} - \mu_{p}) - (\sigma_{j}^2 - \sigma_{p}^2)/2 + (\sigma_{j} \xi_t^{j} - \sigma_p \xi_t^p) \right\} \\
-&= \omega_{t-1}^{j}\left\{ (\mu_{j} - \mu_{p}) - (\sigma_{j}^2 - \sigma_{p}^2)/2\right\}
-+ 
-\omega_{t-1}^{j}\left\{ (\sigma_{j} \xi_t^{j} - \sigma_p \xi_t^p) \right\}
+&\approx \omega_{t-1}^{j} \left\[ (\mu_{j} - \mu_{p}) - \tfrac{1}{2}(\sigma_{j}^2 - \sigma_{p}^2) + (\sigma_{j} \xi_t^{j} - \sigma_p \xi_t^p) \right\] \\
+&= \omega_{t-1}^{j}\left\[ (\mu_{j} - \mu_{p}) - \tfrac{1}{2}(\sigma_{j}^2 - \sigma_{p}^2)\right\] + \omega_{t-1}^{j}\left\[ (\sigma_{j} \xi_t^{j} - \sigma_p \xi_t^p) \right\]
 \end{aligned}
 $$
+
+
 임을 알 수 있다. 여기서 첫 번째 항은 $t-1$ 시점에 알 수 있는(deterministic) 값이고, 두 번째 항은 $t$시점에서 확인할 수 있는 확률변수이다. 이를 통해 알 수 있는 점은
 
 - $t-1$시점에서 $t$시점까지의 비중 변화 $\omega_{t}^{j}$는 $t-1$시점에서의 비중 $\omega_{t-1}^{j}$에 비례한다.
@@ -99,23 +106,36 @@ $$
 
 
 Wiener Process의 특성 중 하나인
+
 $$
 \xi_{t}^{j} = W_{t}^{j} - W_{t-1}^{j} \sim \mathcal{N} (0,~1^2)
 $$
-을 활용하면, 두번째 항은 $\mathcal{N}(0,~\sigma_{j}^{2})$을 따르는 확률변수와  $\mathcal{N}(0,~\sigma_{p}^{2})$을 따르는 확률변수의 차이와 관련이 있다. 이때 두 확률변수는  $\rho_{j, p}$를 상관관계로 갖는다고 가정한다.
+
+을 활용하면, 두번째 항은
+$\mathcal{N}(0,\sigma_{j}^{2})$
+을 따르는 확률변수와 
+$\mathcal{N}(0,\sigma_{p}^{2})$
+을 따르는 확률변수의 차이와 관련이 있다. 이때 두 확률변수는  $\rho_{j, p}$를 상관관계로 갖는다고 가정한다.
 
 
 
-$\mu_j, \mu_p, \sigma_j, \sigma_p$는 주어진 파라미터(상수)이고, $\xi_t^i \sim \mathcal{N}(0,~1^2)$라는 점을 이용하여 양변에 기댓값을 취하면
-
+$\mu_j, \mu_p, \sigma_j, \sigma_p$는 주어진 파라미터(상수)이고, 
+$\xi_t^i \sim \mathcal{N}(0,~1^2)$
+라는 점을 이용하여 양변에 기댓값을 취하면
 
 $$
-\mathbb{E} \left[ \triangle \omega_{t}^{j} \right] \approx \omega_{t-1}^{j}\left\{ (\mu_{j} - \mu_{p}) - (\sigma_{j}^2 - \sigma_{p}^2)/2\right\}
+\mathbb{E}
+\left\[ \triangle \omega_{t}^{j} \right\]
+\approx 
+\omega_{t-1}^{j}\left\( (\mu_{j} - \mu_{p}) - \tfrac{1}{2}(\sigma_{j}^2 - \sigma_{p}^2)\right\)
 $$
+
 이고,
+
 $$
-Var \left[ \triangle \omega_{t}^{j}\right] \approx \left(\omega_{t-1}^{j} \right)^2 \left( \sigma_{j}^{2} - 2\rho_{j,p} \sigma_{j}\sigma_{p} + \sigma_{p}^2\right)
+Var \left\[ \triangle \omega_{t}^{j}\right\] \approx \left(\omega_{t-1}^{j} \right)^2 \left( \sigma_{j}^{2} - 2\rho_{j,p} \sigma_{j}\sigma_{p} + \sigma_{p}^2\right)
 $$
+
 이다. 
 
 
@@ -131,7 +151,7 @@ $$
 
 
 
-이처럼 자산군의 비중 $\omega_{t-1}^j$는 다른 변수에 미치는 영향이 존재하나, 실무적으로 SAA 밴드를 설정할 시점에 $\omega_{t-1}^j$는 주어진 값(given condition)으로 취급하는 것이 편하다. 따라서 논의의 편의를 위해 $\omega_{t-1}^{j}$와 $\left\{\sigma_j, \sigma_p, \rho_{j, p} \right\}$를 구분하여 생각하기로 한다.
+이처럼 자산군의 비중 $\omega_{t-1}^j$는 다른 변수에 미치는 영향이 존재하나, 실무적으로 SAA 밴드를 설정할 시점에 $\omega_{t-1}^j$는 주어진 값(given condition)으로 취급하는 것이 편하다. 따라서 논의의 편의를 위해 $\omega_{t-1}^{j}$와 $\left\(\sigma_j, \sigma_p, \rho_{j, p} \right\)$를 구분하여 생각하기로 한다.
 
 
 
@@ -144,6 +164,7 @@ $$
 $$
 V(\sigma_j, \sigma_p, \rho_{j, p}) := \sigma_j^2 - 2 \rho_{j, p} \sigma_j \sigma_p + \sigma_p^2
 $$
+
 라고 했을 때
 
 - $\partial V/ \partial \sigma_j = 2(\sigma_j - \rho_{j, p} \sigma_p)  $이므로, $\sigma_j > \rho_{j, p} \sigma_p$인 경우 $V$는 $\sigma_j$에 비례하고,  $\sigma_j < \rho_{j, p} \sigma_p$인 경우 $V$는 $\sigma_j$에 반비례
@@ -167,7 +188,9 @@ $$
 
 
 $$
-Var \left[ \triangle \omega_{t}^{j}\right] \approx \left(\omega_{t-1}^{j} \right)^2 \left( \sigma_{j}^{2} - 2\rho_{j,p} \sigma_{j}\sigma_{p} + \sigma_{p}^2\right)
+Var \left\[ \triangle \omega_{t}^{j}\right\] \approx \left(\omega_{t-1}^{j} \right)^2 \left( \sigma_{j}^{2} - 2\rho_{j,p} \sigma_{j}\sigma_{p} + \sigma_{p}^2\right)
 $$
+
 이 식을 참고할 수 있다.
+
 
