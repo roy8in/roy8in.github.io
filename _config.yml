@@ -233,8 +233,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      use_math: true
+      layout: single      
       math: true
       author_profile: true
       read_time: true
