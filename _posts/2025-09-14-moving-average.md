@@ -131,14 +131,15 @@ $$
 
 위 식을 조금 정리해보면
 
+
 $$
-\begin{equation}\begin{aligned}
+\begin{aligned}
 m_t &= (1-\beta)x_t + (1-\beta)\beta x_{t-1} + (1-\beta)\beta^2 x_{t-2} + \cdots \\
 &= (1-\beta)x_t + \beta [(1-\beta)x_{t-1} + (1-\beta)\beta x_{t-2}+\cdots ]\\
 &=(1-\beta)x_t + \beta m_{t-1}
 \end{aligned}
-\end{equation}
 $$
+
 
 이다. 즉, $(1-\beta)$는 새로운 관측치 $x_t$에 주는 가중치이며, $\beta$는 평균을 계산할 때 이전 평균$m_{t-1}$에 이어가는 decaying 요소이다. 즉, EWMA는 현재 관측치($x_t$)와 과거 평균($m_{t-1}$)을 $(1-\beta)$와 $\beta$로 가중평균하며 섞는 재귀적인 식으로 표현할 수 있다.
 
