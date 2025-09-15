@@ -9,6 +9,14 @@ classes: wide
   {% include page__hero_video.html %}
 {% endif %}
 
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
+  </head>
+
 {% if page.url != "/" and breadcrumbs_enabled %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
