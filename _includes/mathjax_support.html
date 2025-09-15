@@ -1,28 +1,16 @@
-<!-- MathJax v3 configuration -->
 <script>
   window.MathJax = {
     tex: {
-      // 인라인/블록 수식 구분자
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$','$$'], ['\\[','\\]']],
-
-      // AMS 넘버링
-      tags: 'ams',              // 'ams' = 자동 넘버링(align, equation 등)
-      tagSide: 'right',         // 번호 위치(옵션)
-      tagIndent: '0.8em',       // 들여쓰기(옵션)
-
+      tags: 'ams',
       processEscapes: true,
       processEnvironments: true
     },
     options: {
-      // 코드블록 등은 렌더링 제외
-      skipHtmlTags: ['script','noscript','style','textarea','pre','code'],
-      ignoreHtmlClass: 'tex2jax_ignore',
-      processHtmlClass: 'tex2jax_process'
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
     },
-    loader: {
-      load: ['[tex]/ams']       // AMS 패키지
-    }
+    loader: { load: ['[tex]/ams'] }
   };
 </script>
 <script id="MathJax-script" async
