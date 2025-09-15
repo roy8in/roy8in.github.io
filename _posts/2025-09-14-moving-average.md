@@ -3,8 +3,8 @@ title: Moving Average
 date: 2025-09-14
 categories: [arithmetic]
 tags: [MA]
-comments: True
-use_math: True
+comments: true
+use_math: true
 ---
 
 Moving Average에 대해 금융투자 실무 관점에서 정리한다.
