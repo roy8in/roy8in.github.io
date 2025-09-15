@@ -9,12 +9,10 @@ use_math: True
 ---
 
 
-
-
 Inline: $SMA(k)_{t}$
 
 Block:
 
 $$
-SMA_t^{(k)} = \frac{1}{k}\sum_{i=0}^{k-1} P_{t-i} \label{eq:sma}
+SMA_t^{(k)} = \frac{1}{k}\sum_{i=0}^{k-1} P_{t-i} 
 $$
