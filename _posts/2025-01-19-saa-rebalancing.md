@@ -4,8 +4,8 @@ date: 2025-01-19
 categories: 
 - arithmetic
 tags: [futures]
-comments: True
-use_math: True
+comments: true
+use_math: true
 ---
 
 
