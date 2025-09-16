@@ -68,7 +68,7 @@ $$
 이 개념을 적용한 것이 EWMA(Exponentially Weighted Moving Average)이다.  최근 관측치에 더 많은 가중치를 주고, 과거 관측치일수록 가중치를 지수함수적으로 적게 주는 것이다. 이때, 감소하는 속도는 $\lambda$에 의존하게 된다.
 
 <p align="center">
-  <img src="https://github.com/roy8in/roy8in.github.io/blob/main/images/posts/moving-average/moving-average-figure1.png?raw=true"/>
+  <img src="https://github.com/roy8in/roy8in.github.io/blob/main/images/posts/moving-average/moving-average-figure1.png?raw=true" width="75%"/>
 </p>
 
 
@@ -100,7 +100,7 @@ $$
 이렇게 지수적으로 줄어든다. 즉, 반감기가 10일이라는 것은, 10일 전에 발생한 사건의 중요도가 오늘의 절반이라는 뜻으로 해석할 수 있다.
 
 <p align="center">
-  <img src="https://github.com/roy8in/roy8in.github.io/blob/main/images/posts/moving-average/moving-average-figure2.png?raw=true"/>
+  <img src="https://github.com/roy8in/roy8in.github.io/blob/main/images/posts/moving-average/moving-average-figure2.png?raw=true" width="75%"/>
 </p>
 
 
@@ -218,7 +218,7 @@ $$
 요즘에는 컴퓨터나 클라우드의 연산 능력이 매우 뛰어나기 때문에 큰 문제가 되지 않을 수 있으나, 그래도 관리하는 데이터가 어떻게 늘어날지 모르니 적절한 $N$을 설정하는 것은 중요하다고 할 수 있다.
 
 <p align="center">
-  <img src="https://github.com/roy8in/roy8in.github.io/blob/main/images/posts/moving-average/moving-average-figure3.png?raw=true"/>
+  <img src="https://github.com/roy8in/roy8in.github.io/blob/main/images/posts/moving-average/moving-average-figure3.png?raw=true" width="75%"/>
 </p>
 
 
