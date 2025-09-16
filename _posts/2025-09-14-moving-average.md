@@ -2,7 +2,7 @@
 title: Moving Average
 date: 2025-09-14
 categories: [arithmetic]
-tags: [MA]
+tags: [Moving Average]
 comments: true
 use_math: true
 ---
@@ -11,7 +11,7 @@ Moving Average에 대해 금융투자 실무 관점에서 정리한다.
 
 
 
-## SMA (Simple Moving Average)
+### SMA (Simple Moving Average)
 
 가장 흔한 방법이며, 시험에 대한 반 평균 점수와 본인의 점수를 비교하며 어린 나이부터 자연스럽게, 알고 싶지 않아도 터득하는 개념이다.
 
@@ -33,7 +33,7 @@ $t$시점을 기준으로 이전 $k$개의 관측치의 평균이다.
 
 
 
-## WMA (Weighted Moving Average)
+### WMA (Weighted Moving Average)
 
 SMA는 계산에 대상이 되는 모든 관측치에 대해 $1/k$의 중요도를 부여한 것과 같다. 그런데 모든 관측치가 동일한 중요도를 갖는다는 것이 불편하다.
 
@@ -73,7 +73,8 @@ $$
 
 
 
-## Half-life(반감기)
+
+### Half-life(반감기)
 
 $R(t)=e^{-\lambda t}$ 일 때 $R(h)=1/2 $이 되는 $h$를 반감기라고 한다. 즉,
 
@@ -102,6 +103,7 @@ $$
 <p align="center">
   <img src="https://github.com/roy8in/roy8in.github.io/blob/main/images/posts/moving-average/moving-average-figure2.png?raw=true" width="75%"/>
 </p>
+
 
 
 
@@ -165,7 +167,7 @@ $$
 
 
 
-## 기본 데이터 세트 설정
+### 기본 데이터 세트 설정
 
 $N$개의 관측치가 있다고 가정한다. 여기서 $x$는 주가지수(SPX, NKY 등)의 종가라고 생각해도 좋다.
 
@@ -222,7 +224,8 @@ $$
 </p>
 
 
-## 실무에서 반감기($h$)와 관측 기간($N$)의 설정
+
+### 실무에서 반감기($h$)와 관측 기간($N$)의 설정
 
 투자자마다 투자 시계가 다르다. 어떤 투자자는 몇 초~몇 분이 될수도 있고, 어떤 투자자는 수개월, 또 다른 투자자는 몇 년을 설정하기도 한다. 
 
