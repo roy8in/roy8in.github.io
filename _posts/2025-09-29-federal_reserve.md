@@ -2,7 +2,7 @@
 title: 연준의 통화정책
 date: 2025-09-29
 categories: [mid-cold-war] 
-tags: [LTCM]
+tags: [Fed]
 comments: True
 use_math: True
 ---
@@ -103,3 +103,4 @@ use_math: True
 - TGCR은 연준이 설정한 **IOER(상단)**과 **ON RRP(하단)** 사이에서 안정적으로 움직이며 정책 파급 경로의 신뢰성을 높일 수 있다.
 
 즉, 로건 총재의 주장은 단순한 금리지표 변경이 아니라, **2008년 이후 구조 변화에 맞춰 통화정책의 기준을 다시 설계하자**는 것이다.
+
