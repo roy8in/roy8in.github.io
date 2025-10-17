@@ -1,7 +1,7 @@
 ---
 title: 캐리 트레이드
 date: 2025-10-14
-categories: [mid-cold-war] 
+categories: [derivatives] 
 tags: [carry trade]
 comments: True
 use_math: True
@@ -224,6 +224,7 @@ use_math: True
 >
 >**Joe:**
 > 그래, 마무리하자.
+
 
 
 
