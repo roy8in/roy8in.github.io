@@ -12,7 +12,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "ancient" %}
-                        <li><a href="/categories/ancient" class="">고대 세계 (~500) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#ancient" class="">고대 세계 (~500) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -20,7 +20,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "medieval" %}
-                        <li><a href="/categories/medieval" class="">중세 시대 (500~1500) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#medieval" class="">중세 시대 (500~1500) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -28,7 +28,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "early-modern" %}
-                        <li><a href="/categories/early-modern" class="">근세 (1500~1800) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#early-modern" class="">근세 (1500~1800) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -36,7 +36,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mid-19th-century" %}
-                        <li><a href="/categories/mid-19th-century" class="">19세기 중반 (1800~1870) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#mid-19th-century" class="">19세기 중반 (1800~1870) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -44,7 +44,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "industrial-revolution" %}
-                        <li><a href="/categories/industrial-revolution" class="">제2차 산업혁명과 제국주의 시대 (1870~1914) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#industrial-revolution" class="">제2차 산업혁명과 제국주의 시대 (1870~1914) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -52,7 +52,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "world-war-i" %}
-                        <li><a href="/categories/world-war-i" class="">제1차 세계 대전과 대공황 (1914~1939) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#world-war-i" class="">제1차 세계 대전과 대공황 (1914~1939) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -60,7 +60,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "world-war-ii" %}
-                        <li><a href="/categories/world-war-ii" class="">제2차 세계 대전 (1939~1945) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#world-war-ii" class="">제2차 세계 대전 (1939~1945) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -68,7 +68,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "early-cold-war" %}
-                        <li><a href="/categories/early-cold-war" class="">냉전 초기와 경제 재건 (1945~1960) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#early-cold-war" class="">냉전 초기와 경제 재건 (1945~1960) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -76,7 +76,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mid-cold-war" %}
-                        <li><a href="/categories/mid-cold-war" class="">냉전 중기와 경제 성장 (1960~1980) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#mid-cold-war" class="">냉전 중기와 경제 성장 (1960~1980) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -84,7 +84,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "neoliberalism" %}
-                        <li><a href="/categories/neoliberalism" class="">신자유주의와 세계화의 시작 (1980~2000) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#neoliberalism" class="">신자유주의와 세계화의 시작 (1980~2000) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -92,7 +92,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "digital" %}
-                        <li><a href="/categories/digital" class="">디지털 시대와 글로벌 금융위기 (2000~2010) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#digital" class="">디지털 시대와 글로벌 금융위기 (2000~2010) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -100,7 +100,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "post-gfc" %}
-                        <li><a href="/categories/post-gfc" class="">포스트 금융위기 (2010~2020) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#post-gfc" class="">포스트 금융위기 (2010~2020) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -108,7 +108,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "post-covid19" %}
-                        <li><a href="/categories/post-covid19" class="">코로나19 팬데믹 이후 (2020~) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#post-covid19" class="">코로나19 팬데믹 이후 (2020~) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -121,21 +121,21 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "arithmetic" %}
-                        <li><a href="/categories/arithmetic" class="">Arithmetic ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#arithmetic" class="">Arithmetic ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "derivatives" %}
-                        <li><a href="/categories/derivatives" class="">Derivatives ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#derivatives" class="">Derivatives ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "quant-idea" %}
-                        <li><a href="/categories/quant-idea" class="">Idea Note ({{category[1].size}})</a></li>
+                        <li><a href="/categories/#quant-idea" class="">Idea Note ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
