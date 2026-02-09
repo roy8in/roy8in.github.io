@@ -8,7 +8,8 @@
         <!--span 태그로 카테고리들을 크게 분류 -->
         <span class="nav__sub-title">Financial History</span>
         <li>
-            <!--ul 태그로 같은 카테고리들을 모아둔 페이지를 나열 -->
+            <!-- Group 1: Pre-Modern Era -->
+            <div style="font-size: 0.75em; color: #7a8288; margin: 12px 0 4px 0; font-weight: bold; text-transform: uppercase;">Pre-Modern Era (전근대)</div>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "ancient" %}
@@ -33,6 +34,8 @@
                 {% endfor %}
             </ul>
 
+            <!-- Group 2: Modern Era -->
+            <div style="font-size: 0.75em; color: #7a8288; margin: 12px 0 4px 0; font-weight: bold; text-transform: uppercase;">Modern Era (근대)</div>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mid-19th-century" %}
@@ -49,6 +52,8 @@
                 {% endfor %}
             </ul>
 
+            <!-- Group 3: War & Crisis -->
+            <div style="font-size: 0.75em; color: #7a8288; margin: 12px 0 4px 0; font-weight: bold; text-transform: uppercase;">War & Crisis (전쟁과 위기)</div>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "world-war-i" %}
@@ -65,6 +70,8 @@
                 {% endfor %}
             </ul>
 
+            <!-- Group 4: Post-War & Contemporary -->
+            <div style="font-size: 0.75em; color: #7a8288; margin: 12px 0 4px 0; font-weight: bold; text-transform: uppercase;">Post-War & Contemporary (현대)</div>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "early-cold-war" %}
