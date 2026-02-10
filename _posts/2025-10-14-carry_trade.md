@@ -1,11 +1,11 @@
-\---
-title: 엔 캐리 트레이드의 역습: 2024년 8월 5일의 폭락은 왜 전 세계를 공포로 몰아넣었나?
+---
+title: 엔 캐리 트레이드의 역습, 2024년 8월 5일의 폭락은 왜 전 세계를 공포로 몰아넣었나?
 date: 2025-10-14
 categories: [derivatives] 
 tags: [carry trade]
 comments: True
 use_math: True
-\---
+---
 
 아래는 블룸버그 팟캐스트(Odd Lots)에서 BIS의 신현송 박사님과 나눈 [내용](https://www.bis.org/speeches/sp240829_transcript.pdf)을 요약한 것이다.
 
