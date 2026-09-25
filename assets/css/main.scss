@@ -7,3 +7,36 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Custom: briefing hero on homepage
+.briefing-hero {
+  padding: 1.5em 0 2em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid $border-color;
+}
+
+.briefing-hero__kicker {
+  font-size: $type-size-6;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $muted-text-color;
+  margin: 0 0 0.6em;
+}
+
+.briefing-hero__title {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+
+.briefing-hero__desc {
+  font-size: $type-size-5;
+  line-height: 1.7;
+  max-width: 44em;
+  margin-bottom: 0.8em;
+}
+
+.briefing-hero__meta {
+  font-size: $type-size-6;
+  color: $muted-text-color;
+  margin-bottom: 0;
+}
