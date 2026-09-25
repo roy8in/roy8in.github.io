@@ -208,9 +208,6 @@ whitelist:   # (GitHub Pages --safe 모드 대응)
   - jekyll-github-metadata
 
 # Archives
-category_archive:
-  type: liquid
-  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
@@ -240,4 +237,3 @@ defaults:
       comments: true
       share: true
       related: true
-      sidebar_main: true
